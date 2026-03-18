@@ -717,7 +717,7 @@ async function chatCompletionAnthropic(
     })),
     ...(thinkingBudget > 0
       ? { thinking: { type: "enabled" as const, budget_tokens: thinkingBudget } }
-      : { temperature: options.temperature }),
+      : { temperature: 1.0 }),
     max_tokens: options.maxTokens,
     stream: true,
   });
@@ -729,9 +729,14 @@ async function chatCompletionAnthropic(
 
   try {
     for await (const event of stream) {
-      if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
-        chunks.push(event.delta.text);
-        monitor.onChunk(event.delta.text);
+      if (event.type === "content_block_delta") {
+        const delta = (event as { delta?: { type?: string; text?: string } }).delta;
+        if (delta?.type === "text_delta") {
+          chunks.push(delta.text || "");
+          monitor.onChunk(delta.text || "");
+        } else if (delta?.type === "thinking_delta") {
+          // MiniMax returns thinking content - optionally append or ignore
+        }
       }
       if (event.type === "message_start") {
         inputTokens = event.message.usage?.input_tokens ?? 0;
@@ -786,7 +791,7 @@ async function chatCompletionAnthropicSync(
     })),
     ...(thinkingBudget > 0
       ? { thinking: { type: "enabled" as const, budget_tokens: thinkingBudget } }
-      : { temperature: options.temperature }),
+      : { temperature: 1.0 }),
     max_tokens: options.maxTokens,
   });
 
@@ -835,7 +840,7 @@ async function chatWithToolsAnthropic(
     tools: anthropicTools,
     ...(thinkingBudget > 0
       ? { thinking: { type: "enabled" as const, budget_tokens: thinkingBudget } }
-      : { temperature: options.temperature }),
+      : { temperature: 1.0 }),
     max_tokens: options.maxTokens,
     stream: true,
   });
