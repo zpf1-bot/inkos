@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "number": 1,
+    "title": "淬体九重的废物",
+    "status": "ready-for-review",
+    "wordCount": 3931,
+    "createdAt": "2026-03-18T02:44:55.585Z",
+    "updatedAt": "2026-03-18T02:45:48.248Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 31616,
+      "completionTokens": 12682,
+      "totalTokens": 44298
+    }
+  }
+]
