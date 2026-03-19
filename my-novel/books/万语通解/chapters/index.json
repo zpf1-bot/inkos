@@ -12,5 +12,2416 @@
       "completionTokens": 12682,
       "totalTokens": 44298
     }
+  },
+  {
+    "number": 2,
+    "title": "语言天赋",
+    "status": "ready-for-review",
+    "wordCount": 9319,
+    "createdAt": "2026-03-18T07:35:13.943Z",
+    "updatedAt": "2026-03-18T07:35:13.943Z",
+    "auditIssues": [
+      "[warning] 高疲劳词'仿佛'在全文出现2次，超过每3000字1次的阈值",
+      "[warning] 第2章在苏言房间、测试广场、苏明轩房间、苏家密库等多个场景间切换，缺少场景过渡；且苏明轩房间段落（约150字）采用非主角视角叙述",
+      "[warning] 两个护卫的心理活动被完全监听，且'寅时三刻换岗'等信息被主角轻易获取，显得护卫过于松懈；测试长老未识破主角在测试石上做手脚",
+      "[info] 本章涵盖：突破养气境→夜探书库→复查测试→进入密库，信息量较大但章内节奏紧凑",
+      "[info] 第2章成功落地'测试打脸反转'爽点（灵品中等），与第1章末尾的觉醒铺垫形成呼应",
+      "[warning] 转折词重复使用：\"不过\"×7。同一转折模式≥3次暴露AI生成痕迹",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 40659,
+      "completionTokens": 17786,
+      "totalTokens": 58445
+    }
+  },
+  {
+    "number": 3,
+    "title": "实战检验",
+    "status": "ready-for-review",
+    "wordCount": 5250,
+    "createdAt": "2026-03-18T07:42:01.088Z",
+    "updatedAt": "2026-03-18T07:42:01.088Z",
+    "auditIssues": [
+      "[warning] 主角以养气境一重（100语力）击败三个养气境二重到三重杀手（合计约700语力），跨越3个小境界轻松获胜。虽然有优化版裂石拳加成，但战果仍显夸张，降低了越级战斗的合理性。",
+      "[warning] 三个暗杀杀手完全没有个人特征，只作为功能性角色出现。他们的背景、来历、反应都过于扁平，无法给读者留下印象。",
+      "[warning] 第2章激活的HOOK_003（苏明轩暗杀阴谋）在本章推进后，SUE_01苏家逆袭和SUB_02父母下落两条支线暂时搁置。这是合理的离开时机，但需确保后续会回归。",
+      "[info] 本章类型为战斗章+离开章+奇遇章（遇到白老），连续三章类型各有不同（第1章困境+觉醒，第2章逆袭+布局，第3章战斗+奇遇），节奏良好。",
+      "[info] 章尾钩子设置得当：万语宗考核令牌、三个月倒计时、白老的神秘话语（\"努力修炼到让老夫有资格告诉你的程度\"），成功留住了读者对主角能力来源的好奇。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 42160,
+      "completionTokens": 13687,
+      "totalTokens": 55847
+    }
+  },
+  {
+    "number": 4,
+    "title": "法则碎片",
+    "status": "ready-for-review",
+    "wordCount": 5621,
+    "createdAt": "2026-03-18T07:48:35.455Z",
+    "updatedAt": "2026-03-18T07:48:35.455Z",
+    "auditIssues": [
+      "[warning] 苏言与苏明轩对峙时说出\"今日之因，来日之果。你加倍奉还\"，这句话带有明显的情绪化威胁色彩，与主角\"务实、记仇但理性\"的人设略有偏差。更符合主角风格的应该是冷静陈述事实或直接行动，而非放狠话。",
+      "[info] 第3章类型为\"战斗章+转折章\"，第4章类型为\"修炼章+危机章\"。虽然有从战斗到修炼的过渡，但紧接着又是危机事件（敌人来袭），连续2章处于紧张节奏中。",
+      "[info] 血脉语石碑与古玉符号的关联在本章被揭示（父母相关），这是HOOK_002（身世之谜）的重要推进，时机恰当。万语碑震动作为章尾钩子效果良好。",
+      "[info] 本章是修炼积累+危机开头，没有明确的爽点落地（打脸/升级/收益兑现）。第3章刚有战斗胜利+获得令牌爽点，本章作为过渡章是合理的。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 41680,
+      "completionTokens": 14354,
+      "totalTokens": 56034
+    }
+  },
+  {
+    "number": 5,
+    "title": "万语碑",
+    "status": "ready-for-review",
+    "wordCount": 4455,
+    "createdAt": "2026-03-18T08:01:46.059Z",
+    "updatedAt": "2026-03-18T08:01:46.059Z",
+    "auditIssues": [
+      "[warning] 养气境一重被碑灵附身后展现'言值境'手段（至少化神境战力），秒杀12名养气境中后期杀手，跨越两个大境界",
+      "[warning] 天书阁12名杀手全程无台词、无反应描写，被'一言风起'秒杀，像纯粹的工具人角色",
+      "[info] '冷笑'出现3次，其余高疲劳词（蝼蚁/倒吸凉气/瞳孔骤缩等）未出现，整体控制良好"
+    ],
+    "tokenUsage": {
+      "promptTokens": 42654,
+      "completionTokens": 10220,
+      "totalTokens": 52874
+    }
+  },
+  {
+    "number": 6,
+    "title": "养伤",
+    "status": "ready-for-review",
+    "wordCount": 7846,
+    "createdAt": "2026-03-18T08:10:29.212Z",
+    "updatedAt": "2026-03-18T08:10:29.212Z",
+    "auditIssues": [
+      "[info] 章节标题显示为'第5章 万语碑'，但内容描述的是第5章结束后的情节（第6章内容），存在标题与内容不匹配的问题",
+      "[warning] 当前章节中，SUB_02（父母下落）虽被白老提及（玉佩与父母下落有关），但没有实质性推进；SUB_05（碑灵交易）碑灵沉睡，无新进展",
+      "[info] 章节中提到'养气境一重，灵气积累达到85%'，但没有明确说明修炼进度与时间的关系。上一章刚经历30天修炼+危机，本章就达到85%，节奏略快",
+      "[info] 章节末尾苏言修炼'《基础练气诀》'时，使用了较为模糊的时间描述'时间一分一秒地过去'，与前面'四天'的具体时间线略有脱节",
+      "[warning] 转折词重复使用：\"不过\"×4。同一转折模式≥3次暴露AI生成痕迹",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 48442,
+      "completionTokens": 18334,
+      "totalTokens": 66776
+    }
+  },
+  {
+    "number": 7,
+    "title": "荒原语成",
+    "status": "ready-for-review",
+    "wordCount": 5736,
+    "createdAt": "2026-03-18T08:17:20.652Z",
+    "updatedAt": "2026-03-18T08:17:20.652Z",
+    "auditIssues": [
+      "[info] 苏明轩在本章与苏言相遇时表现过于平静（只是'深深地看了一眼'就离开），与之前一直言语挑衅的人设不太一致。前一章结尾苏明轩还威胁'最好祈祷不要落在我的手里'，这里突然示弱可能显得突兀。",
+      "[info] 主角突破到养气境二重后战力描述略显模糊，只说'灵气比之前浑厚了将近一倍'，没有给出具体的语力数值。建议明确标注突破后的战力水平，方便读者建立清晰的强弱概念。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 50097,
+      "completionTokens": 12335,
+      "totalTokens": 62432
+    }
+  },
+  {
+    "number": 8,
+    "title": "备战",
+    "status": "ready-for-review",
+    "wordCount": 4888,
+    "createdAt": "2026-03-18T08:23:07.565Z",
+    "updatedAt": "2026-03-18T08:23:07.565Z",
+    "auditIssues": [
+      "[warning] 转折词重复使用：\"不过\"×4。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 49703,
+      "completionTokens": 14116,
+      "totalTokens": 63819
+    }
+  },
+  {
+    "number": 9,
+    "title": "三日之期",
+    "status": "ready-for-review",
+    "wordCount": 4792,
+    "createdAt": "2026-03-18T08:32:21.542Z",
+    "updatedAt": "2026-03-18T08:32:21.542Z",
+    "auditIssues": [
+      "[warning] 第7章击杀13名杀手获得的灵石和资源未被计入资源账本，第9章消耗的药材也未明确记录增量",
+      "[info] 本章未发现高疲劳词汇过度使用的情况，整体词汇使用较为丰富",
+      "[info] 第9章多条支线均有推进：SUB_01苏家逆袭（天书阁强攻结束）、SUB_03苏明轩阴谋（情报获取但未完全公开）、SUB_04万语宗考核（作为后续目标提及）"
+    ],
+    "tokenUsage": {
+      "promptTokens": 63844,
+      "completionTokens": 21566,
+      "totalTokens": 85410
+    }
+  },
+  {
+    "number": 10,
+    "title": "秘境将启",
+    "status": "ready-for-review",
+    "wordCount": 4876,
+    "createdAt": "2026-03-18T08:39:18.797Z",
+    "updatedAt": "2026-03-18T08:39:18.797Z",
+    "auditIssues": [
+      "[warning] 碑灵交易支线（SUB_005）距今已3章无进展",
+      "[warning] 父母下落线索（HOOK_002）距上一章已3章无新推进"
+    ],
+    "tokenUsage": {
+      "promptTokens": 53164,
+      "completionTokens": 15819,
+      "totalTokens": 68983
+    }
+  },
+  {
+    "number": 11,
+    "title": "秘境筹备",
+    "status": "ready-for-review",
+    "wordCount": 4795,
+    "createdAt": "2026-03-18T08:59:15.196Z",
+    "updatedAt": "2026-03-18T08:59:15.196Z",
+    "auditIssues": [
+      "[warning] 第11章第4段出现现代网络用语'solo'，与古典玄幻文风不搭：'这位兄弟是一个人？' 'solo。'",
+      "[warning] 敛息术修炼速度过快：第8章刚'摸到门槛'，第11章第5天就'突破到第二层顶峰'，仅5天从入门到顶峰，修炼节奏略显仓促。",
+      "[warning] 连续4章（8-11章）都是'布局章+修炼章'类型，章节类型重复度过高，缺乏变化。读者长期看不到冲突落地或爽点兑现。",
+      "[info] HOOK_009碑灵交易（碑灵承诺给力量，事后需偿还）在第7章后已3章未提及，虽未完全停滞但有淡出风险。",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 56095,
+      "completionTokens": 16869,
+      "totalTokens": 72964
+    }
+  },
+  {
+    "number": 12,
+    "title": "秘境外围",
+    "status": "ready-for-review",
+    "wordCount": 5502,
+    "createdAt": "2026-03-18T09:08:34.749Z",
+    "updatedAt": "2026-03-18T09:08:34.749Z",
+    "auditIssues": [
+      "[warning] 苏言养气境二重（巅峰）越级击败养气境七重灰衣老者，跨越5个小境界。虽然有敛息术隐藏气息打对方一个措手不及、荒原语框架100%加成、实战技巧碾压等合理性铺垫，但击败一名天书阁长老（修炼高等功法）的越级幅度仍然较大",
+      "[warning] 灰衣老者作为天书阁长老，独自追击进入秘境的主角，未带任何同伴，且在发现主角气息异常时仍然轻敌出手，符合'反派死于话多/轻敌'的经典套路，但与天书阁之前展现的谨慎形象略有出入",
+      "[info] 第10-12章主角情绪状态持续在'坚定→期待→挑战'区间，第10章强度9，第11章强度8，第12章未明确标注但基调相似，连续三章无明显情绪波动"
+    ],
+    "tokenUsage": {
+      "promptTokens": 70484,
+      "completionTokens": 20004,
+      "totalTokens": 90488
+    }
+  },
+  {
+    "number": 13,
+    "title": "秘境初战",
+    "status": "ready-for-review",
+    "wordCount": 6117,
+    "createdAt": "2026-03-18T09:15:07.896Z",
+    "updatedAt": "2026-03-18T09:15:07.896Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 57441,
+      "completionTokens": 14937,
+      "totalTokens": 72378
+    }
+  },
+  {
+    "number": 14,
+    "title": "古塔惊魂",
+    "status": "ready-for-review",
+    "wordCount": 6675,
+    "createdAt": "2026-03-18T09:21:53.029Z",
+    "updatedAt": "2026-03-18T09:21:53.029Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 49555,
+      "completionTokens": 13338,
+      "totalTokens": 62893
+    }
+  },
+  {
+    "number": 15,
+    "title": "秘境深处",
+    "status": "ready-for-review",
+    "wordCount": 6707,
+    "createdAt": "2026-03-18T09:29:49.986Z",
+    "updatedAt": "2026-03-18T09:29:49.986Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 51009,
+      "completionTokens": 15718,
+      "totalTokens": 66727
+    }
+  },
+  {
+    "number": 16,
+    "title": "闭门潜修",
+    "status": "ready-for-review",
+    "wordCount": 4303,
+    "createdAt": "2026-03-18T09:34:49.944Z",
+    "updatedAt": "2026-03-18T09:34:49.944Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 49655,
+      "completionTokens": 12705,
+      "totalTokens": 62360
+    }
+  },
+  {
+    "number": 17,
+    "title": "暗夜杀机",
+    "status": "ready-for-review",
+    "wordCount": 3584,
+    "createdAt": "2026-03-18T09:50:20.105Z",
+    "updatedAt": "2026-03-18T09:50:20.105Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 48510,
+      "completionTokens": 12558,
+      "totalTokens": 61068
+    }
+  },
+  {
+    "number": 18,
+    "title": "卧虎藏龙",
+    "status": "ready-for-review",
+    "wordCount": 4832,
+    "createdAt": "2026-03-18T10:17:21.424Z",
+    "updatedAt": "2026-03-18T10:17:21.424Z",
+    "auditIssues": [
+      "[warning] 高疲劳词'淡淡'出现4次（'淡淡道'），AI标记词'淡淡'密度过高（超过每3000字1次）",
+      "[warning] 本章是典型的'布局章+修炼章'类型，属于连续修炼/布局的中间章节，缺少事件冲突或爽点落地",
+      "[warning] 万语宗考核支线（SUB_04）自第17章后一直处于'进行中'状态，本章虽然提及考核内容但缺乏实质推进",
+      "[info] 章尾钩子较弱，仅以'一个月后，见分晓'收尾，缺少强烈的悬念或冲突预告",
+      "[info] 林诗诗作为万语宗弟子出现，但对苏言的敌意缺乏动机铺垫，沦为简单的'挑衅工具人'",
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 52234,
+      "completionTokens": 14309,
+      "totalTokens": 66543
+    }
+  },
+  {
+    "number": 19,
+    "title": "暗流涌动",
+    "status": "ready-for-review",
+    "wordCount": 4019,
+    "createdAt": "2026-03-18T10:22:25.684Z",
+    "updatedAt": "2026-03-18T10:22:25.684Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 55207,
+      "completionTokens": 13074,
+      "totalTokens": 68281
+    }
+  },
+  {
+    "number": 20,
+    "title": "暗夜伏击",
+    "status": "ready-for-review",
+    "wordCount": 4297,
+    "createdAt": "2026-03-18T10:27:42.550Z",
+    "updatedAt": "2026-03-18T10:27:42.550Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 56043,
+      "completionTokens": 14739,
+      "totalTokens": 70782
+    }
+  },
+  {
+    "number": 21,
+    "title": "路途遇险",
+    "status": "ready-for-review",
+    "wordCount": 4224,
+    "createdAt": "2026-03-18T10:38:44.231Z",
+    "updatedAt": "2026-03-18T10:38:44.231Z",
+    "auditIssues": [
+      "[warning] 接引弟子周林的支线在本章中断。周林奉命回万语宗报信，但后续既没有交代他是否成功搬来援兵，也没有说明他与苏言何时、在何地再次汇合。接引关系悬而未决。",
+      "[info] 天书阁'天地玄黄'四大长老体系中，黑袍长老是黄字辈，白眉长老按理应是白字辈，地位高于黑袍。文中设定合理，但可考虑补充说明白字辈地位高于黄字辈，以强化天书阁对苏言的重视程度。",
+      "[info] 本章事件密集度较高：云山镇遭遇→密林伏击→脱险→发现据点→偷听情报→离开。山洞休息略显仓促，可考虑将最后两段合并为一个过渡句。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 47598,
+      "completionTokens": 11989,
+      "totalTokens": 59587
+    }
+  },
+  {
+    "number": 22,
+    "title": "路途惊魂",
+    "status": "ready-for-review",
+    "wordCount": 6645,
+    "createdAt": "2026-03-18T10:51:40.967Z",
+    "updatedAt": "2026-03-18T10:51:40.967Z",
+    "auditIssues": [
+      "[info] 中年拦截者的身份未明确交代，仅知其为古塔钥匙而来",
+      "[info] 周林作为接引弟子，其角色功能已大部分完成（接引到万语宗、安排住宿、提供考核信息），后续可能边缘化",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 64042,
+      "completionTokens": 12317,
+      "totalTokens": 76359
+    }
+  },
+  {
+    "number": 23,
+    "title": "灵碑之变",
+    "status": "ready-for-review",
+    "wordCount": 7193,
+    "createdAt": "2026-03-18T11:00:38.397Z",
+    "updatedAt": "2026-03-18T11:00:38.397Z",
+    "auditIssues": [
+      "[info] 神识强度从15丈提升到18丈（20%提升），金戈语领悟进度15%，这些数值变化与灵语碑法则吸收的描述基本吻合",
+      "[info] 古玉与万语碑同源（出自同一块原石）的设定与H001万语通解伏笔呼应，白云子提及苏天河二十年前往事与H002身世伏笔呼应",
+      "[info] SUB_04万语宗考核已完成（直接通过）；SUB_10隐脉阴谋继续推进（五年倒计时新增）；SUB_15灵语论道准备转化为宗门培养",
+      "[info] 苏言弧线：从震惊/空白→醒来后的冷静分析→接受现实→投入修炼；林诗诗弧线：从傲慢→被打脸→屈辱；赵德全弧线从震惊→顺从",
+      "[info] 本章类型为转折章+收获章+布局章：危机解除（天书阁撤退）→获得宗门特殊待遇→新功法入手→五年之约明确→继续修炼",
+      "[info] 本章爽点包括：1）太上长老亲自收徒（身份揭示）；2）林诗诗被打脸（打脸）；3）获得《金戈语》功法（收益兑现）；4）宗门保护承诺（安全感建立）",
+      "[info] 第1卷规划30章，当前23章。剧情进展：觉醒→家族立足→秘境收获→加入宗门，节奏符合卷纲'获得宗门认可'的节点要求",
+      "[info] 白云子掌握了苏言的主要情报（古玉、修炼经历），但不知道苏言的具体战力细节；苏言对隐脉全貌仍不完全清楚；信息边界合理",
+      "[info] 检测到6句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 68320,
+      "completionTokens": 19280,
+      "totalTokens": 87600
+    }
+  },
+  {
+    "number": 24,
+    "title": "内门风云",
+    "status": "ready-for-review",
+    "wordCount": 4932,
+    "createdAt": "2026-03-18T11:07:00.987Z",
+    "updatedAt": "2026-03-18T11:07:00.987Z",
+    "auditIssues": [
+      "[info] 父母下落支线（SUB_02）已激活但近几章无推进",
+      "[info] 本章无高疲劳词汇使用，文风良好"
+    ],
+    "tokenUsage": {
+      "promptTokens": 68384,
+      "completionTokens": 17690,
+      "totalTokens": 86074
+    }
+  },
+  {
+    "number": 25,
+    "title": "内门藏经",
+    "status": "ready-for-review",
+    "wordCount": 4564,
+    "createdAt": "2026-03-18T11:11:16.098Z",
+    "updatedAt": "2026-03-18T11:11:16.098Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 52430,
+      "completionTokens": 11113,
+      "totalTokens": 63543
+    }
+  },
+  {
+    "number": 26,
+    "title": "云镇伏击",
+    "status": "ready-for-review",
+    "wordCount": 4503,
+    "createdAt": "2026-03-18T11:17:35.009Z",
+    "updatedAt": "2026-03-18T11:17:35.009Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 68905,
+      "completionTokens": 16664,
+      "totalTokens": 85569
+    }
+  },
+  {
+    "number": 27,
+    "title": "内门潜修",
+    "status": "ready-for-review",
+    "wordCount": 6501,
+    "createdAt": "2026-03-18T11:33:21.258Z",
+    "updatedAt": "2026-03-18T11:33:21.258Z",
+    "auditIssues": [
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 74327,
+      "completionTokens": 19415,
+      "totalTokens": 93742
+    }
+  },
+  {
+    "number": 28,
+    "title": "内门风云起",
+    "status": "ready-for-review",
+    "wordCount": 6331,
+    "createdAt": "2026-03-18T11:41:20.735Z",
+    "updatedAt": "2026-03-18T11:41:20.735Z",
+    "auditIssues": [
+      "[warning] 苏言以养气境五重越级击退通玄境二重白眉长老（越5级），战力跨越过大。虽然有神识攻击出其不意、金戈语30%、语言法则亲和等设定支撑，但白云子第27章明确表示'化神境碾压一切'，通玄境与养气境的差距应该如同天堑。建议强化越级合理性：可强调白眉长老受伤未愈（25章刚重伤）、神识攻击克制低警戒敌人、金戈语金属性克制等叠加因素。",
+      "[warning] 第1卷规划30章结束，当前28章。支线进度：SUB_12天书阁复仇（27→28→待30章）、SUB_17宗门大比（24→27→28→待30章）、SUB_18云梦泽遗迹（24→27→28→待30章）。多条支线均在近3章有活跃，但第30章需同时回收多个支线，压力较大。",
+      "[info] 本章出场人物：苏言、周林、韩立、灰衣执事、周通、灰羽、白云子、林诗诗、韩立（2次出场）。角色较多，部分角色（如韩立）出现两次但间隔较短，节奏较快但衔接自然。",
+      "[info] 未发现AI标记词（仿佛/不禁/宛如/竟然/忽然/猛地）高密度使用。古典玄幻文风保持稳定。",
+      "[warning] 转折词重复使用：\"不过\"×4。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 62595,
+      "completionTokens": 14484,
+      "totalTokens": 77079
+    }
+  },
+  {
+    "number": 29,
+    "title": "内门论道",
+    "status": "ready-for-review",
+    "wordCount": 3678,
+    "createdAt": "2026-03-18T12:06:01.491Z",
+    "updatedAt": "2026-03-18T12:06:01.491Z",
+    "auditIssues": [
+      "[warning] 第29章末尾苏言突破养气境六重后，描述'即便对上养气境九重，也有十足的把握'。根据战力体系，养气境六重（语力约600）+金戈语小成（约70语力）+神识攻击，战力约可达养气境七八重，对上养气境九重应有压力，不宜描述为'十足把握'。",
+      "[warning] 韩立在本章再次主动上门挑衅苏言，但上一次（28章）已经被执事警告并扣除三个月月例。韩立作为养气境九重、大比前三热门、内院弟子，应该有基本的判断力，不应连续两次在宗门内对同一个人挑衅并被阻止。",
+      "[warning] 本章设置了一个爽点：苏言一个时辰就破解了天书阁密文。但这个爽点缺乏足够铺垫和具体展示（没有展示破解过程、密文内容），也没有其他角色的震惊反应作为对比，爽点效果被削弱。",
+      "[info] 第28章末尾韩立威胁苏言'走着瞧'，本章开头修炼论道，中途韩立再次上门挑衅。从时间线看间隔不长（可能是同一天或次日），冲突密度较高但尚在合理范围内。",
+      "[info] 本章出场人物较多（周林、周通、赵鹏、柳如烟、孙哲、王猛、陈墨、韩立、执事、陈长老），支线涉及修炼小组论道、贡献点任务、云梦泽遗迹等多个信息点，节奏略赶。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 74161,
+      "completionTokens": 18058,
+      "totalTokens": 92219
+    }
+  },
+  {
+    "number": 30,
+    "title": "密文终解",
+    "status": "ready-for-review",
+    "wordCount": 2267,
+    "createdAt": "2026-03-18T12:14:35.396Z",
+    "updatedAt": "2026-03-18T12:14:35.396Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 83221,
+      "completionTokens": 21621,
+      "totalTokens": 104842
+    }
+  },
+  {
+    "number": 31,
+    "title": "内门风云",
+    "status": "ready-for-review",
+    "wordCount": 4738,
+    "createdAt": "2026-03-18T12:21:51.042Z",
+    "updatedAt": "2026-03-18T12:21:51.042Z",
+    "auditIssues": [
+      "[warning] 词汇\"冷笑\"在本章出现3次，密度较高",
+      "[warning] 苏言连续4章（28-31章）情绪状态持续处于积极面：警觉→危机→脱险→突破→战意→自信→收获→期待，缺乏情绪压制-释放的起伏",
+      "[warning] 章节类型连续4章（28-31章）都是修炼突破/收获类型：第28章（突破章+转折章）、第29章（修炼突破章+布局章）、第30章（修炼突破章+收获章+布局章）、第31章（事件章+战斗章+收获章+突破章）"
+    ],
+    "tokenUsage": {
+      "promptTokens": 73843,
+      "completionTokens": 20296,
+      "totalTokens": 94139
+    }
+  },
+  {
+    "number": 32,
+    "title": "内门论道",
+    "status": "ready-for-review",
+    "wordCount": 4370,
+    "createdAt": "2026-03-18T12:35:48.102Z",
+    "updatedAt": "2026-03-18T12:35:48.102Z",
+    "auditIssues": [
+      "[warning] 古墓遭遇战中，中年大汉作为领队，养气境八重的修为，在苏言独自迎敌时全程旁观，既没有出手也没有组织其他弟子支援，导致其他弟子也袖手旁观。这不符合一个合理领队的行为逻辑。",
+      "[warning] 中年大汉（养气境八重的领队）除了分配任务和战后愣住外，没有任何个人特质或反应。柳媚作为新出场女弟子，纯粹作为信息传递和花痴功能的工具人。",
+      "[warning] 第30章是收获章，第31章是战斗突破高潮章，第32章是修炼布局章，连续三章类型相近。且32章没有出现任何冲突高潮或信息释放，节奏较为平淡。",
+      "[warning] 本章节类型为修炼布局章，没有实质性爽点落地。韩立突破九重巅峰是对方变强，不是主角收益。贡献点凑齐100是预期内的资源获取，缺少惊喜感。",
+      "[info] 本章'冷笑'出现3次（第9行、第18行韩立、第18行林诗诗），'淡淡'出现4次。属于正常范围，但需注意控制。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 74492,
+      "completionTokens": 17581,
+      "totalTokens": 92073
+    }
+  },
+  {
+    "number": 33,
+    "title": "云梦泽之行",
+    "status": "ready-for-review",
+    "wordCount": 6561,
+    "createdAt": "2026-03-18T12:43:58.491Z",
+    "updatedAt": "2026-03-18T12:43:58.491Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 78335,
+      "completionTokens": 21178,
+      "totalTokens": 99513
+    }
+  },
+  {
+    "number": 34,
+    "title": "遗迹前夕",
+    "status": "ready-for-review",
+    "wordCount": 2991,
+    "createdAt": "2026-03-18T12:51:44.920Z",
+    "updatedAt": "2026-03-18T12:51:44.920Z",
+    "auditIssues": [
+      "[info] 灰羽带领三名通玄境强者跟随进入遗迹，这一高端战力配置在上一章未做充分铺垫"
+    ],
+    "tokenUsage": {
+      "promptTokens": 73302,
+      "completionTokens": 15514,
+      "totalTokens": 88816
+    }
+  },
+  {
+    "number": 35,
+    "title": "遗迹初探",
+    "status": "ready-for-review",
+    "wordCount": 4041,
+    "createdAt": "2026-03-18T12:59:37.757Z",
+    "updatedAt": "2026-03-18T12:59:37.757Z",
+    "auditIssues": [
+      "[warning] 周林作为与苏言共同进入遗迹的同伴，在本章开头出现后便完全消失，后续苏言遭遇灰羽、林诗诗、韩立等重要情节时均未提及周林的去向",
+      "[warning] 灰羽带三名通玄境手下拦截苏言，形成四名通玄境对阵养气境六重巅峰的局面。苏言虽战力出众但境界差距过大，章尾暗示苏言可能另有脱身手段（如白云子暗中保护或语言塔秘宝），建议在后续章节尽快揭示苏言如何脱身，避免战力体系崩坏",
+      "[info] 本章节奏良好：以探索开篇→发现典籍→遭遇危机→语言塔突破→敌人拦截，层次分明。章尾灰羽带人拦截形成强力钩子，为下一章战斗高潮做好铺垫",
+      "[info] 本章爽点密集且扎实：获得《荒原语基础》和《海域语言总纲》两本珍稀语言典籍、金戈语\"决\"字突破、境界提升至养气境六重巅峰。均为实质性的能力收益，与主角人设（务实、追求信息优势）高度契合"
+    ],
+    "tokenUsage": {
+      "promptTokens": 71151,
+      "completionTokens": 20685,
+      "totalTokens": 91836
+    }
+  },
+  {
+    "number": 36,
+    "title": "语言塔底",
+    "status": "ready-for-review",
+    "wordCount": 5542,
+    "createdAt": "2026-03-18T13:08:06.731Z",
+    "updatedAt": "2026-03-18T13:08:06.731Z",
+    "auditIssues": [
+      "[info] 三名天书阁通玄境弟子全程无台词无个性描写，沦为单纯的背景板道具",
+      "[info] H025语言塔传承伏笔部分回收（苏言获得部分传承但未完全继承），属于延后回收状态",
+      "[info] SUB_02父母下落支线已5章无进展（31-36章），但属于长线伏笔，可接受",
+      "[info] 林诗诗、韩立仅在章首章尾提及，本章无直接互动，但与情节逻辑吻合（遗迹中各自探索）",
+      "[warning] 转折词重复使用：\"不过\"×4。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 76696,
+      "completionTokens": 21712,
+      "totalTokens": 98408
+    }
+  },
+  {
+    "number": 37,
+    "title": "内门潜修",
+    "status": "ready-for-review",
+    "wordCount": 5325,
+    "createdAt": "2026-03-18T13:15:45.697Z",
+    "updatedAt": "2026-03-18T13:15:45.697Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 77105,
+      "completionTokens": 19395,
+      "totalTokens": 96500
+    }
+  },
+  {
+    "number": 38,
+    "title": "内门风云起",
+    "status": "ready-for-review",
+    "wordCount": 6231,
+    "createdAt": "2026-03-18T13:22:58.091Z",
+    "updatedAt": "2026-03-18T13:22:58.091Z",
+    "auditIssues": [
+      "[warning] 本章作为过渡章节，缺少明显的爽点回收或情节起伏。论道对峙→接取任务的流程较为平淡，与上一章（第37章）的高潮突破情绪衔接不够。",
+      "[info] SUB_23国师单独召见伏笔在本章未被进一步展开，只有天书阁杀手的动态更新。",
+      "[info] 周林在本章未直接出场，与第37章结尾'周林告知宗门警告'的铺垫略有脱节。",
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 81987,
+      "completionTokens": 19148,
+      "totalTokens": 101135
+    }
+  },
+  {
+    "number": 39,
+    "title": "云梦泽惊变",
+    "status": "ready-for-review",
+    "wordCount": 5264,
+    "createdAt": "2026-03-18T13:32:55.814Z",
+    "updatedAt": "2026-03-18T13:32:55.814Z",
+    "auditIssues": [
+      "[warning] 三名通玄境中期杀手被养气境七重的苏言轻易击败。虽然有'不了解苏言实力'和'轻敌'的解释，但三名成名杀手在伏击战中同时轻敌，合理性稍弱。",
+      "[info] 本章爽点类型为越级击杀（击败三名通玄境中期）+ 收获领悟（荒原语决字），属于常规爽点，落地扎实。",
+      "[info] 本章节奏为：出发→遭遇伏击→反杀→探索遗址→领悟突破→返回→交付任务→闭门修炼。战斗、探索、收获、布局元素齐全，节奏明快。",
+      "[info] 天书阁杀手伏击支线继续推进（SUB_12）；大比备战继续（SUB_17）；山峰遗址的出现可能为后续支线埋下伏笔。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 96580,
+      "completionTokens": 27213,
+      "totalTokens": 123793
+    }
+  },
+  {
+    "number": 40,
+    "title": "内门潜修",
+    "status": "ready-for-review",
+    "wordCount": 3980,
+    "createdAt": "2026-03-18T14:09:01.230Z",
+    "updatedAt": "2026-03-18T14:09:01.230Z",
+    "auditIssues": [
+      "[warning] 连续两章使用'灰衣老者'描述天书阁杀手，第39章是白发老者，第40章是灰衣老者，容易造成读者混淆",
+      "[info] 本章'淡淡'一词出现2次，轻微词汇重复",
+      "[info] 本章'淡淡'出现2次，'缓缓'出现1次，密度符合要求"
+    ],
+    "tokenUsage": {
+      "promptTokens": 81285,
+      "completionTokens": 16722,
+      "totalTokens": 98007
+    }
+  },
+  {
+    "number": 41,
+    "title": "云梦泽伏击战",
+    "status": "ready-for-review",
+    "wordCount": 5335,
+    "createdAt": "2026-03-18T14:26:46.332Z",
+    "updatedAt": "2026-03-18T14:26:46.332Z",
+    "auditIssues": [
+      "[warning] 章节末尾出现数值错误：'养气境三重'应为'养气境三重'，但根据上下文和状态卡显示，苏言从养气境七重中期突破后应该是'养气境七重巅峰'或'养气境三重'（此处上下文显示是七重境界体系内）。查看前文'再进一步，就能突破到养气境三重'，实际上应该是'养气境三重'对应的七重体系中的下一层境界，但更准确的说法应该是'养气境三重'。等等，我发现更严重的问题：状态卡显示苏言是养气境七重，而'三重'这个表述在养气境体系中出现了歧义。仔细看前文'再进一步，就能突破到养气境三重'——这里的'三重'可能是个错误，因为前文说的是'养气境七重中期...七重巅峰...八重了'",
+      "[warning] 连续4章章类型相似：第38章(突破章+布局章+战斗章)、第39章(战斗章+突破章+收获章)、第40章(布局章+战斗章)、第41章(布局章+战斗章)。虽然本章包含了多种元素(论道、冲突、任务、伏击、战斗、突破)，但整体节奏密度较高",
+      "[info] 本章'冷笑'出现2次，属于可接受范围。全章未使用'蝼蚁'、'倒吸凉气'、'瞳孔骤缩'等高疲劳词汇"
+    ],
+    "tokenUsage": {
+      "promptTokens": 81644,
+      "completionTokens": 19405,
+      "totalTokens": 101049
+    }
+  },
+  {
+    "number": 42,
+    "title": "内门暗流",
+    "status": "ready-for-review",
+    "wordCount": 5198,
+    "createdAt": "2026-03-18T14:44:38.766Z",
+    "updatedAt": "2026-03-18T14:44:38.766Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 84175,
+      "completionTokens": 20386,
+      "totalTokens": 104561
+    }
+  },
+  {
+    "number": 43,
+    "title": "战后余波",
+    "status": "ready-for-review",
+    "wordCount": 4223,
+    "createdAt": "2026-03-18T14:53:08.568Z",
+    "updatedAt": "2026-03-18T14:53:08.568Z",
+    "auditIssues": [
+      "[info] 主角情绪弧线轻微平缓：第42章（秒杀韩立）与第43章（闭门修炼）情绪强度均为9，但都处于积极自信状态，缺乏明显的起伏变化。",
+      "[info] \"冷笑\"出现2次，\"淡淡地\"出现3次，存在轻微的词汇重复。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 83985,
+      "completionTokens": 18218,
+      "totalTokens": 102203
+    }
+  },
+  {
+    "number": 44,
+    "title": "云梦泽再遇",
+    "status": "ready-for-review",
+    "wordCount": 3605,
+    "createdAt": "2026-03-18T15:00:11.309Z",
+    "updatedAt": "2026-03-18T15:00:11.309Z",
+    "auditIssues": [
+      "[info] 连续5章都是事件章（战斗/收获类型），节奏略显单调",
+      "[info] 贡献点数据需要明确：第43章结尾贡献点未明确提及，本章开头苏言接任务时贡献点状态不清晰",
+      "[info] 灰羽出场段落（'就在苏言离开后不久...'）使用了全知视角描述灰羽的心理活动，与主角有限视角略有冲突"
+    ],
+    "tokenUsage": {
+      "promptTokens": 81197,
+      "completionTokens": 18030,
+      "totalTokens": 99227
+    }
+  },
+  {
+    "number": 45,
+    "title": "内门风云起",
+    "status": "ready-for-review",
+    "wordCount": 5082,
+    "createdAt": "2026-03-18T15:06:51.923Z",
+    "updatedAt": "2026-03-18T15:06:51.923Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 69144,
+      "completionTokens": 13385,
+      "totalTokens": 82529
+    }
+  },
+  {
+    "number": 46,
+    "title": "大比首战",
+    "status": "ready-for-review",
+    "wordCount": 5683,
+    "createdAt": "2026-03-18T15:14:48.003Z",
+    "updatedAt": "2026-03-18T15:14:48.003Z",
+    "auditIssues": [
+      "[info] 本章出现部分高疲劳词汇：冷笑(2次)、不可能(3次)、竟然(1次)、仿佛(0次)、不禁(0次)、宛如(0次)。AI标记词密度较低，未超过阈值。",
+      "[info] 韩立作为养气境九重巅峰强者，在战斗中连续使用多套功法均被苏言轻松躲避，最终被击败。符合苏言金戈语大成、战力媲美通玄境中期的设定，配角行为逻辑自洽。",
+      "[info] 本章爽点密集且充分落地：(1)韩立使用雷符被苏言瞬移躲避-打脸 (2)苏言凝聚战戈虚影秒杀韩立-打脸 (3)决赛碾压林诗诗-打脸 (4)获得大比第一名+万语碑参悟三天+灵器-收益兑现",
+      "[info] 本章为单一战斗章（连续战斗：大比韩立→赵鹏→林诗诗→决赛获胜），但作为大比高潮章，节奏设计合理。",
+      "[info] 章尾钩子：苏言获第一名→万语碑参悟三天；天书阁阴谋未完（云梦泽外围布置阵法）；韩立林诗诗仇恨延续。读者情绪缺口：苏言实力展示充分，大比爽点落地，天书阁威胁作为后续钩子。",
+      "[info] 主视角始终锁定苏言，从大比战斗→裁判对话→第二轮→决赛→高台受赏→与周林离开，视角切换自然，无跳跃。",
+      "[info] H020宗门大比-回收完成（大比第一名）；H023韩立敌对-推进（韩立被取消资格+战败）；H024灰羽古玉交易-推进（天书阁云梦泽外围布置阵法）；H004天书阁杀手-推进（黑羽带领三名通玄境中期埋伏云梦泽外围，等待苏言离开宗门）",
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 87435,
+      "completionTokens": 19692,
+      "totalTokens": 107127
+    }
+  },
+  {
+    "number": 47,
+    "title": "万语碑中",
+    "status": "ready-for-review",
+    "wordCount": 4593,
+    "createdAt": "2026-03-18T15:21:15.127Z",
+    "updatedAt": "2026-03-18T15:21:15.127Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 88289,
+      "completionTokens": 17681,
+      "totalTokens": 105970
+    }
+  },
+  {
+    "number": 48,
+    "title": "主动出击",
+    "status": "ready-for-review",
+    "wordCount": 5169,
+    "createdAt": "2026-03-18T15:30:50.134Z",
+    "updatedAt": "2026-03-18T15:30:50.134Z",
+    "auditIssues": [
+      "[warning] 第47章结尾宗门发布集结令要求所有内门弟子前往广场集合，但第48章开头苏言能够单独离开宗门前往云梦泽，存在逻辑矛盾。",
+      "[warning] 黑羽作为天书阁总部最强杀手、通玄境巅峰强者，在本章表现过于轻敌。没有设置陷阱陷阱或留有后手，被苏言识破埋伏后选择正面强攻，最后被执法队撞破便立刻撤退，杀手素养不足。",
+      "[info] 三名灰袍人（通玄境中期）全程仅负责包围和被杀，战斗中没有展现任何特色或配合，沦为纯粹的战利品提供者和背景板。",
+      "[info] 本章爽点密集且密集落地：越级战斗、临阵突破、击杀敌人、缴获情报、获得功劳。但章尾战意已泄，下一章可能需要新的冲突来维持张力。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 107413,
+      "completionTokens": 27351,
+      "totalTokens": 134764
+    }
+  },
+  {
+    "number": 49,
+    "title": "战后风云",
+    "status": "ready-for-review",
+    "wordCount": 6443,
+    "createdAt": "2026-03-18T15:37:44.083Z",
+    "updatedAt": "2026-03-18T15:37:44.083Z",
+    "auditIssues": [
+      "[warning] 金戈语境界描述混乱：战力等级对照表显示'大成'对应通玄境、'圆满'对应聚道境，但本章苏言养气境八重启灵却达到'金戈语圆满'，与体系设定冲突",
+      "[warning] 玄水语突破过快：48章刚'触摸言出法随雏形'，49章就'初窥门径'，修炼缺乏铺垫",
+      "[info] 大比结束后的时间线模糊：48章末尾大比结束，49章直接'三日调养'，中间缺乏明确的过渡说明",
+      "[info] 黑羽撤退过于轻易：48章还'下次必杀'放狠话，49章就直接传讯总部要求撤退据点，转折缺少过渡",
+      "[info] 万语通解能力边界模糊：苏言能快速'翻阅'功法玉简直接解析，与之前章节'逐字逐句解析'的设定略有出入",
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 69388,
+      "completionTokens": 14104,
+      "totalTokens": 83492
+    }
+  },
+  {
+    "number": 50,
+    "title": "潜修与暗流",
+    "status": "ready-for-review",
+    "wordCount": 5957,
+    "createdAt": "2026-03-18T15:44:52.458Z",
+    "updatedAt": "2026-03-18T15:44:52.458Z",
+    "auditIssues": [
+      "[warning] 林诗诗突然提及'你的父母，确实与天书阁有关'，但这个信息在前文并无明确铺垫。林诗诗作为内门弟子，如何得知苏言父母与天书阁的关联？这一信息来源未做任何说明，显得突兀。",
+      "[warning] 林诗诗本章出场略显工具人化——突然出现提供情报+交易，完成后立即离开。她的交易动机（要韩立手中某物）模糊，'不方便告诉苏言具体是什么'的设定过于刻意。",
+      "[warning] SUB_11（林小蛮寻兄）距今已33章（第15章）未出现新进展，按照'超过5章未被提及或推进→warning'的规则，应给予关注。",
+      "[info] AI标记词（仿佛/不禁/宛如/竟然/忽然/猛地）本章出现3次，低于3000字1次的阈值，暂无问题。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 96176,
+      "completionTokens": 20290,
+      "totalTokens": 116466
+    }
+  },
+  {
+    "number": 51,
+    "title": "黑袍拦截",
+    "status": "ready-for-review",
+    "wordCount": 4629,
+    "createdAt": "2026-03-18T15:54:12.695Z",
+    "updatedAt": "2026-03-18T15:54:12.695Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 112575,
+      "completionTokens": 21966,
+      "totalTokens": 134541
+    }
+  },
+  {
+    "number": 52,
+    "title": "风云际会",
+    "status": "ready-for-review",
+    "wordCount": 4480,
+    "createdAt": "2026-03-18T16:10:13.342Z",
+    "updatedAt": "2026-03-18T16:10:13.342Z",
+    "auditIssues": [
+      "[warning] 本章'冷笑'一词出现3次，密度偏高"
+    ],
+    "tokenUsage": {
+      "promptTokens": 93234,
+      "completionTokens": 18885,
+      "totalTokens": 112119
+    }
+  },
+  {
+    "number": 53,
+    "title": "清剿风云",
+    "status": "ready-for-review",
+    "wordCount": 5124,
+    "createdAt": "2026-03-18T16:24:01.268Z",
+    "updatedAt": "2026-03-18T16:24:01.268Z",
+    "auditIssues": [
+      "[warning] 苏言以养气境八重启灵使用言出法随连续三道命令伤到通玄境巅峰黑羽，虽然有'玄水语言出法随'的底牌设定支撑，但黑羽作为通玄境巅峰被养气境越两级击伤，差距过大。且黑羽最终选择主动撤退而非被击败，逻辑上黑羽应该能抗住养气境攻击",
+      "[warning] SUB_32林诗诗交易在第52章激活，第53章完全未提及。林诗诗承诺三天内提供名单原件，本章无任何进展",
+      "[warning] 连续6章为战斗/危机类型章（第48-53章）：战斗章→收获章→布局章→战斗章→布局章→战斗章，无回收章或情感释放章",
+      "[info] 第53章中山谷深处发生爆炸（'某座建筑轰然爆炸''后勤辎重存放点被毁'），但未交代是何人所为或何种原因，这是重要信息缺口",
+      "[info] 周林作为苏言的好友和修炼小组重要成员，在第52章随队出发，第53章完全未出场，沦为背景板"
+    ],
+    "tokenUsage": {
+      "promptTokens": 97335,
+      "completionTokens": 20630,
+      "totalTokens": 117965
+    }
+  },
+  {
+    "number": 54,
+    "title": "战后余波",
+    "status": "ready-for-review",
+    "wordCount": 6382,
+    "createdAt": "2026-03-18T16:31:37.478Z",
+    "updatedAt": "2026-03-18T16:31:37.478Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 100204,
+      "completionTokens": 21544,
+      "totalTokens": 121748
+    }
+  },
+  {
+    "number": 55,
+    "title": "暗流再起",
+    "status": "ready-for-review",
+    "wordCount": 5171,
+    "createdAt": "2026-03-18T16:41:06.819Z",
+    "updatedAt": "2026-03-18T16:41:06.819Z",
+    "auditIssues": [
+      "[warning] 苏言在第50章与林诗诗约定'三天后取东西'，但本章末尾突然决定今晚就独自去抢韩立手中的古玉碎片，属于单方面撕毁约定。",
+      "[warning] 周林作为外门弟子，能够打听到'云梦泽深处出现聚道境强者气息'这种宗门高度机密情报，信息来源不合理。",
+      "[warning] 韩立经脉刚刚恢复（52章），境界不稳，却独自前往云梦泽外围击杀天书阁弟子立功，行为过于冲动。后面突然被聚道境强者打伤，剧情转折缺乏合理铺垫。",
+      "[info] 本章以室内修炼、对话、收集情报为主，属于典型的'过渡章/布局章'。连续多章（49-55章）以修炼和布局为主，缺少战斗高潮。",
+      "[info] 周林在本章功能性过强，主要作用是'传递情报'和'提出问题'，缺乏角色立体感。",
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 101347,
+      "completionTokens": 21736,
+      "totalTokens": 123083
+    }
+  },
+  {
+    "number": 56,
+    "title": "夜探外城",
+    "status": "ready-for-review",
+    "wordCount": 5640,
+    "createdAt": "2026-03-18T16:50:40.443Z",
+    "updatedAt": "2026-03-18T16:50:40.443Z",
+    "auditIssues": [
+      "[warning] 本章使用了'仿佛'1次、'忽然'1次，共2次AI标记词，密度较低但在监控范围内",
+      "[info] 天书阁三名通玄境修士（两个中期一个后期）在本章沦为背景板，仅用于展示聚道境强者的强大",
+      "[info] 本章结尾苏言决定回宗突破，章尾钩子较弱，未明确指向下章爽点"
+    ],
+    "tokenUsage": {
+      "promptTokens": 103323,
+      "completionTokens": 21050,
+      "totalTokens": 124373
+    }
+  },
+  {
+    "number": 57,
+    "title": "潜修九重",
+    "status": "ready-for-review",
+    "wordCount": 5242,
+    "createdAt": "2026-03-18T16:59:01.521Z",
+    "updatedAt": "2026-03-18T16:59:01.521Z",
+    "auditIssues": [
+      "[info] 本章为布局/过渡章，无明显爽点落地。上一章结尾韩立与苏言的对峙形成的期待未在本章回收。",
+      "[info] 本章与第56章均为信息密集型章节（布局/情报/过渡），连续两章类型相似。",
+      "[info] 林诗诗在本章承担'全知情报者'功能，向苏言提供大量背景设定信息（隐脉仪式、万语之祖、古玉碎片组成），虽符合其交易者定位，但信息输出略显生硬。",
+      "[info] 第56章结尾的紧张冲突（苏言逃脱、韩立重伤、碎片被夺）形成的情绪缺口在本章未得到缓解。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 105068,
+      "completionTokens": 22573,
+      "totalTokens": 127641
+    }
+  },
+  {
+    "number": 58,
+    "title": "养气丹",
+    "status": "ready-for-review",
+    "wordCount": 7772,
+    "createdAt": "2026-03-18T17:08:18.713Z",
+    "updatedAt": "2026-03-18T17:08:18.713Z",
+    "auditIssues": [
+      "[warning] AI标记词'仿佛'在全文中出现2次，密度为每3000字约0.8次，接近阈值但未超标",
+      "[warning] 连续4章（54-57章）为修炼/布局章类型，第58章延续修炼章节奏。章节类型序列：收获章→修炼突破章→布局章→过渡章→修炼章→布局章",
+      "[info] 章尾悬念设置偏弱，苏言决定继续修炼的结尾缺乏强力钩子；最近爽点集中在第51章击杀黑鸦，已过去7章"
+    ],
+    "tokenUsage": {
+      "promptTokens": 107559,
+      "completionTokens": 23022,
+      "totalTokens": 130581
+    }
+  },
+  {
+    "number": 59,
+    "title": "暗流涌动",
+    "status": "ready-for-review",
+    "wordCount": 5134,
+    "createdAt": "2026-03-18T17:17:22.627Z",
+    "updatedAt": "2026-03-18T17:17:22.627Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 69804,
+      "completionTokens": 19622,
+      "totalTokens": 89426
+    }
+  },
+  {
+    "number": 60,
+    "title": "天书阁执事",
+    "status": "ready-for-review",
+    "wordCount": 4249,
+    "createdAt": "2026-03-18T17:24:45.324Z",
+    "updatedAt": "2026-03-18T17:24:45.324Z",
+    "auditIssues": [
+      "[info] 高频词汇'不可能'在第60章中出现3次，可能造成词汇疲劳",
+      "[info] 第59章结尾苏言刚突破到养气境九重，第60章开头直接开始执行击杀任务，突破后的稳固、修炼等过渡内容省略较多"
+    ],
+    "tokenUsage": {
+      "promptTokens": 105184,
+      "completionTokens": 19239,
+      "totalTokens": 124423
+    }
+  },
+  {
+    "number": 61,
+    "title": "暗流涌动",
+    "status": "ready-for-review",
+    "wordCount": 3970,
+    "createdAt": "2026-03-18T17:31:51.260Z",
+    "updatedAt": "2026-03-18T17:31:51.260Z",
+    "auditIssues": [
+      "[info] 本章作为过渡章，信息密度相对较低，以情报收集和决策为主，缺少明显爽点或高潮",
+      "[info] 苏言接取青羽城清剿任务（150贡献点），但未明确扣除贡献点数（第54章显示230贡献点）"
+    ],
+    "tokenUsage": {
+      "promptTokens": 103636,
+      "completionTokens": 18911,
+      "totalTokens": 122547
+    }
+  },
+  {
+    "number": 62,
+    "title": "云梦泽异宝",
+    "status": "ready-for-review",
+    "wordCount": 3677,
+    "createdAt": "2026-03-18T17:38:00.551Z",
+    "updatedAt": "2026-03-18T17:38:00.551Z",
+    "auditIssues": [
+      "[warning] 本章提及\"古语言学院旧址\"作为峡谷底部废墟，但根据第39章支线SUB_18和章节摘要，云梦泽遗迹探索已在第39章完成，古语言学院旧址探索也已结束。两者可能存在设定冲突。",
+      "[info] 本章首次提及\"三品法宝\"，需确保与第61章提供的数值体系（语力/言值体系）一致，避免战力崩坏"
+    ],
+    "tokenUsage": {
+      "promptTokens": 83911,
+      "completionTokens": 12109,
+      "totalTokens": 96020
+    }
+  },
+  {
+    "number": 63,
+    "title": "云梦泽深处",
+    "status": "ready-for-review",
+    "wordCount": 3610,
+    "createdAt": "2026-03-18T17:45:36.935Z",
+    "updatedAt": "2026-03-18T17:45:36.935Z",
+    "auditIssues": [
+      "[warning] 第62章提到异宝可能是凝神珠，且凝神珠是\"突破通玄境的关键宝物\"；但第63章揭示凝神珠实际上是\"开启某处遗迹的钥匙\"。这两个功能概念略有冲突。",
+      "[warning] 韩立拦截苏言的时机略显突兀。执法堂长老和黑袍老者已带领双方人马进入遗迹，韩立作为通玄境修士本应随队进入，但却独自在门户前\"守株待兔\"等待苏言，逻辑上略显牵强。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 105679,
+      "completionTokens": 18835,
+      "totalTokens": 124514
+    }
+  },
+  {
+    "number": 64,
+    "title": "遗迹古城",
+    "status": "ready-for-review",
+    "wordCount": 4724,
+    "createdAt": "2026-03-18T17:53:15.278Z",
+    "updatedAt": "2026-03-18T17:53:15.278Z",
+    "auditIssues": [
+      "[info] 灰老提到万语之书碎片共七块，但之前章节（父亲用古玉换取功法、隐脉夺走碎片等）未明确说明总数量，存在轻微设定模糊"
+    ],
+    "tokenUsage": {
+      "promptTokens": 108733,
+      "completionTokens": 20743,
+      "totalTokens": 129476
+    }
+  },
+  {
+    "number": 65,
+    "title": "遗迹惊变",
+    "status": "ready-for-review",
+    "wordCount": 4726,
+    "createdAt": "2026-03-18T18:02:50.110Z",
+    "updatedAt": "2026-03-18T18:02:50.110Z",
+    "auditIssues": [
+      "[warning] 灰老作为聚道境强者，在面对养气境的苏言时表现不够果断。他没有选择直接秒杀苏言，而是给对手留下激发禁制和逃跑的时间，最后自己反而需要仓促撤退。这与聚道境强者的实战判断不太相符。",
+      "[warning] 韩立被言出法随三击击中，‘经脉被震碎’，但随后还能‘运转体内残余灵气’并独自离开遗迹。经脉尽碎后还能行动修炼的设定存在矛盾。",
+      "[info] 苏言神识从35丈一次性消耗至0（陷入虚弱），这是剧情需要的合理消耗。但系统提示‘解析完成’后苏言获得的信息量相对有限（仅一个提示+语言亲和+10），与付出的代价（全部神识+重伤）相比性价比看似不高。",
+      "[info] 本章节奏较快，从灰老出手→触发禁制→获取碎片→发现凝神珠→激发共鸣→成功逃脱，情节密度很高。但‘连续触发禁制’的桥段略显密集，可能影响阅读喘息空间。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 131646,
+      "completionTokens": 24402,
+      "totalTokens": 156048
+    }
+  },
+  {
+    "number": 66,
+    "title": "归途与突破",
+    "status": "ready-for-review",
+    "wordCount": 5547,
+    "createdAt": "2026-03-18T18:13:48.291Z",
+    "updatedAt": "2026-03-18T18:13:48.291Z",
+    "auditIssues": [
+      "[info] 苏言隐瞒了获得凝神珠和万语之书碎片的事情，只对白云子说'获得了一些机缘'。这是主角利用信息优势制造阅读趣味的常见手法，不构成问题。",
+      "[info] 万语之书碎片收集已激活（第1块/共7块），但获取剩余6块碎片的计划和时间表尚未明确。",
+      "[info] 苏言本章节情绪状态：从警惕/虚弱 → 突破后的自信 → 规划未来的坚定。情绪弧线有明显变化。",
+      "[info] 本章类型为'收获章+布局章'，与第65章（战斗章+高潮章+收获章）类型不同，不存在连续相同类型章节的问题。",
+      "[info] 章尾天书阁决定'等苏言集齐七块碎片再动手'，制造了新的悬念钩子。突破通玄境的爽点已落地。",
+      "[info] 神识变化：35丈（解析前）→ 1丈（虚弱状态）→ 45丈（突破后）。第65章明确'解析消耗：全部神识'，故从35丈降至1丈合理；突破通玄境后提升至45丈符合境界提升的数值增长。",
+      "[info] 全文未发现高疲劳词汇（冷笑、蝼蚁、倒吸凉气、瞳孔骤缩等）的过度使用。",
+      "[warning] 转折词重复使用：\"不过\"×4。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 136234,
+      "completionTokens": 30122,
+      "totalTokens": 166356
+    }
+  },
+  {
+    "number": 67,
+    "title": "隐脉暗流",
+    "status": "ready-for-review",
+    "wordCount": 5186,
+    "createdAt": "2026-03-18T18:22:39.869Z",
+    "updatedAt": "2026-03-18T18:22:39.869Z",
+    "auditIssues": [
+      "[warning] AI标记词密度较高：仿佛(2次)、不禁(1次)、忽然(1次)，共4次/约5000字，超过每3000字1次的阈值",
+      "[warning] 本章是信息获取+准备行动类型，属于过渡章节，连续3章类型相似（64-65章战斗章，66章突破章，本章过渡章）",
+      "[info] 本章为过渡章节，主要信息获取：找到万语之书碎片分布线索、获得宗门暗中保护承诺、天书阁暂退。爽点密度较低",
+      "[info] 章尾灰羽派人跟踪留下钩子，但近3章（64-66）已有多次爽点（击败韩立、获取碎片、突破境界），情绪释放充分，本章过渡合理",
+      "[warning] 转折词重复使用：\"不过\"×5。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 115884,
+      "completionTokens": 20060,
+      "totalTokens": 135944
+    }
+  },
+  {
+    "number": 68,
+    "title": "青羽故地",
+    "status": "ready-for-review",
+    "wordCount": 9823,
+    "createdAt": "2026-03-18T18:35:31.443Z",
+    "updatedAt": "2026-03-18T18:35:31.443Z",
+    "auditIssues": [
+      "[warning] 状态卡显示'万语之书碎片×1'，但本章苏言已在云梦泽获得第1块、青羽城语碑林获得第2块，实际应为×2。系统提示'第三块碎片在万语宗禁地'，暗示已获得2块。",
+      "[info] 本章节奏较快：青羽城伏击→遭遇灰老→异象→回宗门→禁地探索→遭遇灰老→虚影救援→获得三块碎片。在12000字左右篇幅中推进了较多事件。",
+      "[info] 万语之碑突然出现、灰老在禁地设伏、万语之祖虚影救援，这些元素在本章密集出现。万语之祖虚影虽在第65章'万语之祖气息苏醒'有伏笔，但直接出现救援的时机略显突兀。",
+      "[warning] 转折词重复使用：\"然而\"×7、\"不过\"×5。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 153048,
+      "completionTokens": 34704,
+      "totalTokens": 187752
+    }
+  },
+  {
+    "number": 69,
+    "title": "天书阁总部",
+    "status": "ready-for-review",
+    "wordCount": 4698,
+    "createdAt": "2026-03-18T18:45:00.971Z",
+    "updatedAt": "2026-03-18T18:45:00.971Z",
+    "auditIssues": [
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹",
+      "[info] 检测到7句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 116018,
+      "completionTokens": 19787,
+      "totalTokens": 135805
+    }
+  },
+  {
+    "number": 70,
+    "title": "荒原备战",
+    "status": "ready-for-review",
+    "wordCount": 3562,
+    "createdAt": "2026-03-18T18:52:11.410Z",
+    "updatedAt": "2026-03-18T18:52:11.410Z",
+    "auditIssues": [
+      "[info] 周林本章出场仅作为信息传递工具（告知韩立状况），缺乏自身情节推进，与SUB_02父母下落支线缺少关联互动",
+      "[info] 本章为过渡章，信息密度中等偏低，以准备→拒绝→离开为主结构，缺少明显高潮点",
+      "[info] 林诗诗能精确掌握苏言动向，刚买完符箓丹药她就出现在丹堂；韩立获得苏言去向的玉简来源未明确交代"
+    ],
+    "tokenUsage": {
+      "promptTokens": 112999,
+      "completionTokens": 17162,
+      "totalTokens": 130161
+    }
+  },
+  {
+    "number": 71,
+    "title": "荒原迷阵",
+    "status": "ready-for-review",
+    "wordCount": 4729,
+    "createdAt": "2026-03-18T18:59:14.223Z",
+    "updatedAt": "2026-03-18T18:59:14.223Z",
+    "auditIssues": [
+      "[info] 韩立在本章展现出更多智谋——故意不与苏言动手、提前通知天书阁、在祭坛等待坐收渔翁之利，而非单纯作为被打脸的工具人出现。这是角色塑造的进步。",
+      "[info] 万语之祖虚影揭示'海域'是下一块碎片所在地，呼应第7章伏笔(H007)中'万语之书碎片'的线索，为后续章节埋下钩子。",
+      "[warning] 苏言神识为52丈（第70章获取第4块碎片后），本章未明确提升但结尾暗示可能有微妙变化。建议后续章节明确神识数值变化。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 113547,
+      "completionTokens": 19406,
+      "totalTokens": 132953
+    }
+  },
+  {
+    "number": 72,
+    "title": "海域惊变",
+    "status": "ready-for-review",
+    "wordCount": 5229,
+    "createdAt": "2026-03-18T19:11:20.468Z",
+    "updatedAt": "2026-03-18T19:11:20.468Z",
+    "auditIssues": [
+      "[warning] 神识增长与碎片获取不匹配：第69章获得第4块碎片后神识从48丈增长至52丈（+4丈），但第71章获得第5块碎片后神识仍为52丈，第72章获得第6块碎片后神识仍为52丈。按照现有设定，碎片应该能显著提升神识。",
+      "[info] 章节类型连续性：第70章（布局章）、第71章（战斗章）、第72章（收获章）类型各异，但第71-72章都包含'收获+战斗+布局'元素，略显模式化"
+    ],
+    "tokenUsage": {
+      "promptTokens": 143027,
+      "completionTokens": 28633,
+      "totalTokens": 171660
+    }
+  },
+  {
+    "number": 73,
+    "title": "第73章",
+    "status": "ready-for-review",
+    "wordCount": 3872,
+    "createdAt": "2026-03-18T19:19:01.708Z",
+    "updatedAt": "2026-03-18T19:19:01.708Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 119835,
+      "completionTokens": 19802,
+      "totalTokens": 139637
+    }
+  },
+  {
+    "number": 74,
+    "title": "虫谷截杀",
+    "status": "ready-for-review",
+    "wordCount": 3469,
+    "createdAt": "2026-03-18T19:25:24.354Z",
+    "updatedAt": "2026-03-18T19:25:24.354Z",
+    "auditIssues": [
+      "[warning] 化神境强者到达时间存在逻辑矛盾。第72章提到黑羽传讯总部请化神境强者，第73章周林说化神境强者'已经在路上'，第74章苏言过虫谷时却只有通玄境杀手伏击。按照时间推算（离开宗门7天+虫谷3天=10天），化神境应该已到达。",
+      "[info] 天书阁五名杀手被杀得太快，缺乏挣扎和反抗描写，显得像是为主角服务的工具人。灰袍男子临死前的情报透露也过于配合。",
+      "[info] 章节末尾青冥长老出场，气氛营造到位，但'等了数千年'的表述与隐脉四年后唤醒万语之祖的时间线存在微小偏差（隐脉是唤醒方，不应等数千年）。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 117636,
+      "completionTokens": 17550,
+      "totalTokens": 135186
+    }
+  },
+  {
+    "number": 75,
+    "title": "万佛城暗涌",
+    "status": "ready-for-review",
+    "wordCount": 5100,
+    "createdAt": "2026-03-18T19:33:27.158Z",
+    "updatedAt": "2026-03-18T19:33:27.158Z",
+    "auditIssues": [
+      "[warning] 第74章结尾苏言刚过虫谷，第75章直接跳到万佛城，时间过渡突兀。缺少从虫谷到万佛城路程中的情节铺垫。",
+      "[warning] 苏言主动闯入隐脉总部求见，这一行为与谨慎务实的人设不符。隐脉是死敌，且灰老曾索要古玉碎片，苏言应避免主动送上门。",
+      "[warning] 青冥长老作为化神境强者，在占据绝对优势的情况下阻止韩立杀苏言，理由仅为'有点意思'，过于牵强。化神境应有更充分的考量。",
+      "[info] 章节类型为连续的'战斗章+高潮章'，与第74章（战斗章）连续。可能需要适度调节章节类型分布。",
+      "[info] 第74章结尾神识62丈，第75章结尾突破80丈，增长18丈，跨度较大但可接受（因七块碎片合一+万语之祖虚影加成）。",
+      "[info] 万语之祖苏醒时间从第73章的'四年'在本章再次确认，时间线一致。隐脉总部位置在第73章已揭示，本章是正式进入，伏笔回收合理。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 119567,
+      "completionTokens": 19295,
+      "totalTokens": 138862
+    }
+  },
+  {
+    "number": 76,
+    "title": "归宗与暗涌",
+    "status": "ready-for-review",
+    "wordCount": 4760,
+    "createdAt": "2026-03-18T19:40:55.508Z",
+    "updatedAt": "2026-03-18T19:40:55.508Z",
+    "auditIssues": [
+      "[info] 本章属于信息获取/布局过渡章，与75章的高潮章（万语之祖虚影附身、击败化神境）形成节奏落差",
+      "[info] 本章以信息获取为主：父亲二十年前行踪情报、林诗诗交易加价、天书阁增援情报、上古语言学院任务。缺少明显爽点",
+      "[info] 本章信息量充足：1)父亲苏天河二十年前去过万佛城；2)林诗诗加价两年后兑现承诺；3)天书阁化神境中期/后期可能来袭；4)韩立经脉再断被隐脉救走；5)上古语言学院遗迹任务"
+    ],
+    "tokenUsage": {
+      "promptTokens": 123661,
+      "completionTokens": 18944,
+      "totalTokens": 142605
+    }
+  },
+  {
+    "number": 77,
+    "title": "西域来客",
+    "status": "ready-for-review",
+    "wordCount": 2657,
+    "createdAt": "2026-03-18T19:57:30.073Z",
+    "updatedAt": "2026-03-18T19:57:30.073Z",
+    "auditIssues": [
+      "[warning] 最近4章（74-77）连续为布局章/情报章，缺少变化。74章战斗章，75章高潮章，76章布局章，77章布局章。",
+      "[info] SUB_34（万语之书碎片收集）在第75章已完成回收，后续需关注新支线展开。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 120359,
+      "completionTokens": 16105,
+      "totalTokens": 136464
+    }
+  },
+  {
+    "number": 78,
+    "title": "遗迹血战",
+    "status": "ready-for-review",
+    "wordCount": 3505,
+    "createdAt": "2026-03-18T20:05:52.357Z",
+    "updatedAt": "2026-03-18T20:05:52.357Z",
+    "auditIssues": [
+      "[info] 用户提供章节标题为'西域来客'，但待审内容实为'遗迹伏击'（苏言进入遗迹遭遇黑羽和青冥长老伏击）。用户标注为第78章，建议确认标题",
+      "[info] 75章埋设的'青冥长老率队在万佛城外三百里待伏'在本章成功回收：青冥长老出现并拦截苏言，被万语之祖虚影秒杀",
+      "[warning] 万语之祖虚影附身退敌已在第75章使用过一次，本章再次使用。虽然情节合理（苏言生命受到化神境威胁），但作为最强底牌，短期内两次使用可能削弱其震撼感",
+      "[info] 本章类型为'战斗章+高潮章+收获章+转折章'：遗迹探索（布局）→遭遇伏击（战斗）→万语之祖虚影退敌（高潮）→获得功法突破境界（收获）→韩立复仇线索（转折）"
+    ],
+    "tokenUsage": {
+      "promptTokens": 119855,
+      "completionTokens": 17608,
+      "totalTokens": 137463
+    }
+  },
+  {
+    "number": 79,
+    "title": "归途杀机",
+    "status": "ready-for-review",
+    "wordCount": 4593,
+    "createdAt": "2026-03-18T20:25:12.783Z",
+    "updatedAt": "2026-03-18T20:25:12.783Z",
+    "auditIssues": [
+      "[warning] 高频词汇使用过于密集：'淡淡'出现5次，'冷笑'出现3次，'眼神'出现5次，'淡淡道'出现4次",
+      "[info] 李慕白作为重要截杀者角色，塑造较为单薄，仅作为展示苏言战力的工具人出场"
+    ],
+    "tokenUsage": {
+      "promptTokens": 123150,
+      "completionTokens": 19382,
+      "totalTokens": 142532
+    }
+  },
+  {
+    "number": 80,
+    "title": "密谈与暗涌",
+    "status": "ready-for-review",
+    "wordCount": 4196,
+    "createdAt": "2026-03-18T20:42:05.534Z",
+    "updatedAt": "2026-03-18T20:42:05.534Z",
+    "auditIssues": [
+      "[info] 本章为典型的布局章/过渡章，以情报收集和修炼为主，缺少明显的冲突高潮。与第79章的战斗高潮形成强烈对比，可能造成读者阅读体验上的落差。",
+      "[info] 本章作为过渡章节，没有明显的打脸、升级突破、收益兑现等爽点。章尾虽然设置了云梦泽异宝的钩子，但属于远期期待，读者短期内缺乏情绪释放点。",
+      "[info] 章尾钩子（云梦泽异宝）设置合理，但近3章（第78-80章）缺乏明显的爽点落地。第78章击杀化神境是爽点，但随后两章都属于压抑/布局节奏。",
+      "[info] 本章苏言情绪状态相对平稳，主要为得知父亲消息后的坚定和修炼的专注。作为过渡章节，这种处理可以接受，但连续多章无情绪起伏可能影响读者代入感。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 124647,
+      "completionTokens": 17927,
+      "totalTokens": 142574
+    }
+  },
+  {
+    "number": 81,
+    "title": "云梦泽深处",
+    "status": "ready-for-review",
+    "wordCount": 4267,
+    "createdAt": "2026-03-18T21:19:06.393Z",
+    "updatedAt": "2026-03-18T21:19:06.393Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 125805,
+      "completionTokens": 19211,
+      "totalTokens": 145016
+    }
+  },
+  {
+    "number": 82,
+    "title": "稳固与暗流",
+    "status": "ready-for-review",
+    "wordCount": 4364,
+    "createdAt": "2026-03-18T21:27:19.960Z",
+    "updatedAt": "2026-03-18T21:27:19.960Z",
+    "auditIssues": [
+      "[info] 本章爽点密度较低：击败通玄境巅峰鳄鱼属于越级战斗爽点，炼化青冥草提升神识属于收获爽点，但整体情绪释放不够强烈",
+      "[info] 章尾没有设置明显的钩子。'两年之约'和韩立修炼复仇是潜在的情绪缺口，但未明确指向下一章的具体冲突",
+      "[info] 父母下落支线（SUB_02）最近活跃在第81章，本章虽提及但未明确推进；林诗诗交易支线（SUB_32）在本章未直接出现",
+      "[warning] 转折词重复使用：\"不过\"×4。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 126820,
+      "completionTokens": 19185,
+      "totalTokens": 146005
+    }
+  },
+  {
+    "number": 83,
+    "title": "西域遗迹",
+    "status": "ready-for-review",
+    "wordCount": 3729,
+    "createdAt": "2026-03-18T21:34:30.593Z",
+    "updatedAt": "2026-03-18T21:34:30.593Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 125744,
+      "completionTokens": 17737,
+      "totalTokens": 143481
+    }
+  },
+  {
+    "number": 84,
+    "title": "暗流再起",
+    "status": "ready-for-review",
+    "wordCount": 3997,
+    "createdAt": "2026-03-18T21:44:09.623Z",
+    "updatedAt": "2026-03-18T21:44:09.623Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 154122,
+      "completionTokens": 23775,
+      "totalTokens": 177897
+    }
+  },
+  {
+    "number": 85,
+    "title": "西域遗迹（二）",
+    "status": "ready-for-review",
+    "wordCount": 3687,
+    "createdAt": "2026-03-18T21:53:58.670Z",
+    "updatedAt": "2026-03-18T21:53:58.670Z",
+    "auditIssues": [
+      "[info] 待审章节内容标注为第85章，但章节末尾未明确标注章号，仅显示【本章完】。根据内容推断应为第85章（接续第84章剧情）",
+      "[info] 章节末尾存在重复内容：修炼三个月后神识98丈的描述后，又重复了开头的修炼场景（同样五个月苦修），这实际上是两个时间段——3个月后神识98丈+5个月后瞬移25丈，但表述方式容易造成混淆",
+      "[info] 神识数值在章节内逐步提升：进入遗迹时95丈→修炼三个月后98丈→修炼五个月后未明确提及最终数值（按状态卡为110丈）。瞬移距离：出发时20丈→第一次提及22丈→五个月后25丈",
+      "[info] 本章重要进展：(1)父亲画像首次出现，确认父亲二十年前曾来西域遗迹 (2)父亲留言揭示隐脉阴谋 (3)父亲行踪线索明确化，为后续SUB_02父母下落支线提供重要推进",
+      "[info] 本章为探索+战斗+修炼章，符合卷纲第3卷（61-100章）核心冲突：云梦泽秘境、各势力争夺古经文、发现隐脉阴谋"
+    ],
+    "tokenUsage": {
+      "promptTokens": 169484,
+      "completionTokens": 30699,
+      "totalTokens": 200183
+    }
+  },
+  {
+    "number": 86,
+    "title": "西域遗迹（三）",
+    "status": "ready-for-review",
+    "wordCount": 7332,
+    "createdAt": "2026-03-18T22:10:51.940Z",
+    "updatedAt": "2026-03-18T22:10:51.940Z",
+    "auditIssues": [
+      "[warning] AI标记词'仿佛'在本章出现4次，密度偏高（3500字章节中出现4次，约1.14次/3000字），接近阈值"
+    ],
+    "tokenUsage": {
+      "promptTokens": 135145,
+      "completionTokens": 18751,
+      "totalTokens": 153896
+    }
+  },
+  {
+    "number": 87,
+    "title": "宗门风云",
+    "status": "ready-for-review",
+    "wordCount": 6836,
+    "createdAt": "2026-03-18T22:26:55.346Z",
+    "updatedAt": "2026-03-18T22:26:55.346Z",
+    "auditIssues": [
+      "[info] 部分词汇出现频率较高：'淡淡道'出现7次，'mutters/喃喃'出现5次，'眼神一动'出现4次",
+      "[info] 本章信息量大但缺少具体爽点落地：苏言获得布防图、发现传送祭坛、接取任务，但无明显战斗胜利或突破"
+    ],
+    "tokenUsage": {
+      "promptTokens": 138852,
+      "completionTokens": 21465,
+      "totalTokens": 160317
+    }
+  },
+  {
+    "number": 88,
+    "title": "西域惊变",
+    "status": "ready-for-review",
+    "wordCount": 6124,
+    "createdAt": "2026-03-18T22:41:55.719Z",
+    "updatedAt": "2026-03-18T22:41:55.719Z",
+    "auditIssues": [
+      "[info] 动作词'低声道'在本章出现5次，'身形'出现3次，'身形一闪'出现2次。建议适当替换为'轻声'、'轻声说道'、'化作一道流光'、'化作长虹'等变体。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 138025,
+      "completionTokens": 13767,
+      "totalTokens": 151792
+    }
+  },
+  {
+    "number": 89,
+    "title": "化神传承",
+    "status": "ready-for-review",
+    "wordCount": 5030,
+    "createdAt": "2026-03-18T22:49:22.809Z",
+    "updatedAt": "2026-03-18T22:49:22.809Z",
+    "auditIssues": [
+      "[info] 第89章与第88章内容高度重复，特别是关于隐脉双向传送祭坛、唤醒仪式需要献祭等情节几乎是上一章的复述",
+      "[info] 连续两章（88-89章）都是探索西域遗迹发现隐脉祭坛的情节，节奏略显拖沓，信息密度不足",
+      "[warning] 第89章开头提到神识145丈，但第88章结尾是140丈；第88章提到'神识138→143丈'，第89章开头又说'神识增长到一百四十五丈'，数值变化存在逻辑问题",
+      "[warning] 第89章末尾提到'神识145→146丈'，但第88章结尾已经说'神识一百四十丈'，第89章开头又说'神识增长到一百四十五丈'，存在数值矛盾",
+      "[warning] SUB_32（林诗诗交易）在本章仅通过布防图提及，但林诗诗与韩立的动向、韩立两年之约的后续均未展开",
+      "[info] 本章出现'仿佛'1次，符合要求（3000字内不超过1次）"
+    ],
+    "tokenUsage": {
+      "promptTokens": 136225,
+      "completionTokens": 19331,
+      "totalTokens": 155556
+    }
+  },
+  {
+    "number": 90,
+    "title": "遗迹血战",
+    "status": "ready-for-review",
+    "wordCount": 5572,
+    "createdAt": "2026-03-18T22:55:04.097Z",
+    "updatedAt": "2026-03-18T22:55:04.097Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 137313,
+      "completionTokens": 14985,
+      "totalTokens": 152298
+    }
+  },
+  {
+    "number": 91,
+    "title": "云梦泽异动",
+    "status": "ready-for-review",
+    "wordCount": 3592,
+    "createdAt": "2026-03-18T23:01:44.134Z",
+    "updatedAt": "2026-03-18T23:01:44.134Z",
+    "auditIssues": [
+      "[warning] 法则符文数值存在小幅不一致：第90章结尾提及法则符文148枚，但第91章开头为147枚",
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 126539,
+      "completionTokens": 15705,
+      "totalTokens": 142244
+    }
+  },
+  {
+    "number": 92,
+    "title": "古语言传承",
+    "status": "ready-for-review",
+    "wordCount": 3574,
+    "createdAt": "2026-03-18T23:09:29.288Z",
+    "updatedAt": "2026-03-18T23:09:29.288Z",
+    "auditIssues": [
+      "[warning] 万语宗四名弟子和天书阁四名黑袍人几乎没有任何性格展现或有效互动，沦为纯功能性背景板"
+    ],
+    "tokenUsage": {
+      "promptTokens": 125791,
+      "completionTokens": 15783,
+      "totalTokens": 141574
+    }
+  },
+  {
+    "number": 93,
+    "title": "古语言传承",
+    "status": "ready-for-review",
+    "wordCount": 4586,
+    "createdAt": "2026-03-18T23:16:31.065Z",
+    "updatedAt": "2026-03-18T23:16:31.065Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 158682,
+      "completionTokens": 19735,
+      "totalTokens": 178417
+    }
+  },
+  {
+    "number": 94,
+    "title": "云梦泽惊变",
+    "status": "ready-for-review",
+    "wordCount": 5586,
+    "createdAt": "2026-03-18T23:22:13.328Z",
+    "updatedAt": "2026-03-18T23:22:13.328Z",
+    "auditIssues": [
+      "[warning] 通玄境二重主角连续击败化神境中期（天书阁三长老）和化神境中期巅峰（天书阁大长老座下弟子），跨越两个大境界越级击杀，且未付出明显代价。这已超出合理越级范围。",
+      "[warning] 本章连续出现两场越级战斗（天书阁三长老 vs 中期巅峰弟子），战斗密度过高，缺乏过渡章节调节节奏。",
+      "[warning] 天书阁三长老在已知对手是获得古语言传承的通玄境修士后，仍选择近身硬碰硬应战，被三招击败；中期巅峰强者在被击退后未选择追击或联合下属围剿。",
+      "[info] 神识从200丈增长到220丈（+20丈），瞬移从38丈到40丈（+2丈）。神识增长幅度较大但可接受（参照第93章炼化青冥草增长5丈，本章为战斗感悟+修炼）。",
+      "[warning] 转折词重复使用：\"不过\"×6。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 135474,
+      "completionTokens": 19447,
+      "totalTokens": 154921
+    }
+  },
+  {
+    "number": 95,
+    "title": "稳固与谋局",
+    "status": "ready-for-review",
+    "wordCount": 5177,
+    "createdAt": "2026-03-18T23:29:04.327Z",
+    "updatedAt": "2026-03-18T23:29:04.327Z",
+    "auditIssues": [
+      "[warning] 高频词'仿佛'在本章出现3次，超过每3000字1次的阈值",
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 139223,
+      "completionTokens": 20910,
+      "totalTokens": 160133
+    }
+  },
+  {
+    "number": 96,
+    "title": "七彩莲华",
+    "status": "ready-for-review",
+    "wordCount": 4733,
+    "createdAt": "2026-03-18T23:36:14.772Z",
+    "updatedAt": "2026-03-18T23:36:14.772Z",
+    "auditIssues": [
+      "[warning] 苏言通玄境二重境界，神识300丈，战力可比化神境后期，越级幅度过大。前一章（95章）战力可比化神境中期巅峰，本章直接跨越到化神境后期，战斗力增长过快缺乏过渡。",
+      "[warning] 七彩莲一次性提升神识75丈（225→300丈），数值增长过于夸张。瞬移也从40丈→45丈仅提升5丈，与神识增长不匹配。按前期设定，瞬移应与神识成比例增长。",
+      "[warning] 赵德全作为通玄境巅峰长老，见证苏言神识300丈后仅'完全愣住了''结巴了'，反应过于单一，缺乏符合其身份地位的合理追问或心理活动。",
+      "[info] 本章结构为：发现异宝→收取突破→敌人退去→回宗修炼→新敌人来袭。连续三章（94-96章）均为'战斗/收获→突破→更强敌人来袭'的循环模式，节奏略显单调。",
+      "[info] 本章高频词'化神境''苏言''神识''空间'出现频率正常，但'面色平静''冷笑'类词汇仍有使用。整体词汇疲劳度在可控范围内。",
+      "[info] 目前SUB_02（父母下落）暂无新进展，仍停留在'父亲被囚万佛城地牢'状态；SUB_32（林诗诗交易）上一章（93章）已完成布防图交付，本章无推进。",
+      "[info] 本章爽点：七彩莲认主+神识突破300丈+石碑补充空间符文+天书阁四长老来袭铺垫。爽点明确且落地及时，无虚化问题。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 140604,
+      "completionTokens": 18691,
+      "totalTokens": 159295
+    }
+  },
+  {
+    "number": 97,
+    "title": "暗夜杀机",
+    "status": "ready-for-review",
+    "wordCount": 4030,
+    "createdAt": "2026-03-19T00:00:24.228Z",
+    "updatedAt": "2026-03-19T00:00:24.228Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 112525,
+      "completionTokens": 18215,
+      "totalTokens": 130740
+    }
+  },
+  {
+    "number": 98,
+    "title": "宗门议事",
+    "status": "ready-for-review",
+    "wordCount": 4369,
+    "createdAt": "2026-03-19T00:15:22.927Z",
+    "updatedAt": "2026-03-19T00:15:22.927Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 142135,
+      "completionTokens": 16012,
+      "totalTokens": 158147
+    }
+  },
+  {
+    "number": 99,
+    "title": "第99章 云梦泽新遗迹",
+    "status": "ready-for-review",
+    "wordCount": 6923,
+    "createdAt": "2026-03-19T00:23:12.842Z",
+    "updatedAt": "2026-03-19T00:23:12.842Z",
+    "auditIssues": [
+      "[warning] AI标记词密度略高：'仿佛'出现2次、'宛如'出现2次、'竟然'出现1次，接近每3000字1次的阈值",
+      "[warning] 灰羽作为隐脉重要人物（化神境巅峰），面对苏言时表现过于轻敌，直接被'一击'击退，没有展现出应有的战斗智慧",
+      "[info] 本章苏言创造语言突破、神识大涨330丈、战力突破化神境后期巅峰，这些本应是强爽点，但被聚道境强敌突然出现打断，爽点情绪没有充分释放",
+      "[info] 灰羽本章主要功能就是'被打败'，灰无尽主要功能是'展现聚道境威胁'，缺乏独立的角色行为和动机",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 178858,
+      "completionTokens": 27496,
+      "totalTokens": 206354
+    }
+  },
+  {
+    "number": 100,
+    "title": "创造之境",
+    "status": "ready-for-review",
+    "wordCount": 4360,
+    "createdAt": "2026-03-19T00:28:33.746Z",
+    "updatedAt": "2026-03-19T00:28:33.746Z",
+    "auditIssues": [
+      "[info] 神识数值存在微小差异：章节摘要写330→350丈，但正文开头写330丈，未明确体现突破到350丈的过程",
+      "[info] 本章为信息传递+过渡章，连续2章为布局/过渡性质，缺少战斗高潮",
+      "[info] 章尾悬念稍弱，仅提及'一场更大的风暴正在酝酿'，未明确指向具体危机或爽点落地时间"
+    ],
+    "tokenUsage": {
+      "promptTokens": 148624,
+      "completionTokens": 18993,
+      "totalTokens": 167617
+    }
+  },
+  {
+    "number": 101,
+    "title": "荒原风云",
+    "status": "ready-for-review",
+    "wordCount": 6913,
+    "createdAt": "2026-03-19T00:37:45.938Z",
+    "updatedAt": "2026-03-19T00:37:45.938Z",
+    "auditIssues": [
+      "[warning] 主角战力增长过快：通玄境二重能一招击败化神境巅峰赤霄长老，且荒原语在三个月内从入门突破到小成。上一章创造语言刚入门，本章就达到小成境界，战斗力跨越幅度过大。",
+      "[warning] 时间线存在冲突：第100章提到天书阁'半年内请动聚道境强者'，本章开头变成'三个月后'就会到来；且来的是化神境巅峰赤霄长老而非聚道境强者。",
+      "[info] 部分词汇出现频率较高，如'化神境巅峰'在描述赤霄长老时反复出现。",
+      "[info] 本章苏言情绪状态持续上升（荒原语入门→小成→一招胜敌），连续两章（第100-101章）都是上升弧线，缺少起伏。",
+      "[info] 本章连续出现'布局章/伏笔推进章→突破章→战斗章'的连续爽点输出，第94-101章连续多章都是收获/突破/战斗类型。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 150671,
+      "completionTokens": 24553,
+      "totalTokens": 175224
+    }
+  },
+  {
+    "number": 102,
+    "title": "密报与暗流",
+    "status": "ready-for-review",
+    "wordCount": 5109,
+    "createdAt": "2026-03-19T00:45:12.503Z",
+    "updatedAt": "2026-03-19T00:45:12.503Z",
+    "auditIssues": [
+      "[info] 神识数值在开头与修炼一个月后存在小差异：开头写'三百三十丈'（承接上一章），一个月后写'三百四十丈'（增加10丈），但与角色状态卡中的330丈略有出入，建议统一为330丈起始"
+    ],
+    "tokenUsage": {
+      "promptTokens": 149616,
+      "completionTokens": 19075,
+      "totalTokens": 168691
+    }
+  },
+  {
+    "number": 103,
+    "title": "云梦泽遗迹",
+    "status": "ready-for-review",
+    "wordCount": 7249,
+    "createdAt": "2026-03-19T00:56:28.862Z",
+    "updatedAt": "2026-03-19T00:56:28.862Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 111452,
+      "completionTokens": 11562,
+      "totalTokens": 123014
+    }
+  },
+  {
+    "number": 104,
+    "title": "万语宗潜修",
+    "status": "ready-for-review",
+    "wordCount": 5011,
+    "createdAt": "2026-03-19T01:04:15.310Z",
+    "updatedAt": "2026-03-19T01:04:15.310Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 140404,
+      "completionTokens": 15452,
+      "totalTokens": 155856
+    }
+  },
+  {
+    "number": 105,
+    "title": "祭坛血战",
+    "status": "ready-for-review",
+    "wordCount": 8092,
+    "createdAt": "2026-03-19T01:33:24.452Z",
+    "updatedAt": "2026-03-19T01:33:24.452Z",
+    "auditIssues": [
+      "[warning] 本章'冷笑'出现2次，属于高疲劳词汇",
+      "[warning] 状态卡显示神识360→390丈（+30丈），但章节末尾提到神识突破四百零五丈（四百零五丈），与状态卡增量不完全匹配",
+      "[warning] 荒原部族战士们在本章中主要是'跪倒''围观''欢呼'等功能性反应，缺乏独立的人物刻画",
+      "[info] 本章类型为战斗章/高潮章，与104章（布局章+危机章）不同，节奏类型切换正常",
+      "[info] 本章结尾苏言返回宗门继续修炼，章尾无钩子；但本章是高潮战斗章，爽点已落地（越级击败聚道境），符合读者期待",
+      "[info] H004（天书阁复仇）本推进；H063（沙漠死神封印）本回收完成；H064（隐脉与韩立勾结）继续；H065（隐脉动向）本提及",
+      "[info] SUB_34（云梦泽新异宝）本回收；SUB_35（荒原部族）本回收完成；SUB_36（沙漠死神封印）本回收完成"
+    ],
+    "tokenUsage": {
+      "promptTokens": 146012,
+      "completionTokens": 19107,
+      "totalTokens": 165119
+    }
+  },
+  {
+    "number": 106,
+    "title": "归宗风云",
+    "status": "ready-for-review",
+    "wordCount": 4836,
+    "createdAt": "2026-03-19T01:40:20.199Z",
+    "updatedAt": "2026-03-19T01:40:20.199Z",
+    "auditIssues": [
+      "[info] 章节末尾提到神识'达到了四百一十丈'，但状态卡显示为390丈，存在小幅提升但未更新",
+      "[info] 本章为过渡章，承接105章大胜之后稳固境界、接收情报，为后续危机做铺垫。节奏从战斗高潮转入缓冲，符合章节类型分布规律",
+      "[info] 本章'仿佛'出现4次，'冷笑'出现3次，在4500字章节中属于正常范围，未超过阈值",
+      "[warning] 转折词重复使用：\"不过\"×5。同一转折模式≥3次暴露AI生成痕迹",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 147665,
+      "completionTokens": 18377,
+      "totalTokens": 166042
+    }
+  },
+  {
+    "number": 107,
+    "title": "暗夜刺客",
+    "status": "ready-for-review",
+    "wordCount": 5157,
+    "createdAt": "2026-03-19T01:58:30.686Z",
+    "updatedAt": "2026-03-19T01:58:30.686Z",
+    "auditIssues": [
+      "[warning] 苏言通玄境三重击败化神境二重杀手过于轻松。根据设定，差距约10倍战力，虽然前文有铺垫，但仍显轻易",
+      "[warning] 苏言境界突破速度较快：通玄境二重→三重仅用一个月，神识410→430丈。虽然玄幻设定可接受，但需确保后续不出现数值膨胀失控",
+      "[warning] 刺客临死前透露天书阁与隐脉合作、四年后阴谋等信息，过于配合主角询问。可设定为苏言通过其他渠道获得部分信息，刺客只是补充",
+      "[info] 化神境二重刺客功能性过强，主要作用是送情报和被杀",
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹"
+    ],
+    "tokenUsage": {
+      "promptTokens": 178831,
+      "completionTokens": 19771,
+      "totalTokens": 198602
+    }
+  },
+  {
+    "number": 108,
+    "title": "第二轮暗杀",
+    "status": "ready-for-review",
+    "wordCount": 5634,
+    "createdAt": "2026-03-19T02:07:03.873Z",
+    "updatedAt": "2026-03-19T02:07:03.873Z",
+    "auditIssues": [
+      "[warning] 高频词使用过度：'冷笑'出现4次，'不可能'出现3次，'你……你'出现5次，'空间凝固'出现8次。AI标记词'突然''瞬间'等也有较高密度。",
+      "[warning] 连续章节类型相似：105-108章均为战斗章（战斗→高潮→收获→战斗）。读者情绪持续紧张，缺乏过渡和缓冲。",
+      "[info] 天书阁杀手形象较为单薄，作为功能性角色出现，缺乏个人特色和背景交代。",
+      "[info] 父母下落支线（SUB_02）在本章无新进展，仍停留在107章获得的情报阶段。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 151174,
+      "completionTokens": 17453,
+      "totalTokens": 168627
+    }
+  },
+  {
+    "number": 109,
+    "title": "云梦泽遗迹",
+    "status": "ready-for-review",
+    "wordCount": 4452,
+    "createdAt": "2026-03-19T02:14:24.848Z",
+    "updatedAt": "2026-03-19T02:14:24.848Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 147283,
+      "completionTokens": 16199,
+      "totalTokens": 163482
+    }
+  },
+  {
+    "number": 110,
+    "title": "云梦泽清剿",
+    "status": "ready-for-review",
+    "wordCount": 4274,
+    "createdAt": "2026-03-19T02:18:27.639Z",
+    "updatedAt": "2026-03-19T02:18:27.639Z",
+    "auditIssues": [
+      "[warning] 状态卡显示神识390丈，资源账本也记录390丈，但第109章章节摘要显示神识已突破470丈，第110章时间线在第109章之后一个月，神识应更高。章节内容中'神识扩散至百丈范围'是感知描述而非实际数值。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 114351,
+      "completionTokens": 11120,
+      "totalTokens": 125471
+    }
+  },
+  {
+    "number": 111,
+    "title": "云梦泽异变",
+    "status": "ready-for-review",
+    "wordCount": 6796,
+    "createdAt": "2026-03-19T02:23:43.014Z",
+    "updatedAt": "2026-03-19T02:23:43.014Z",
+    "auditIssues": [
+      "[warning] 战力描述前后矛盾：第110章战力评估为'化神境内无对手；聚道境初期可全身而退'，本章结尾变为'化神境巅峰，聚道境初期十成把握，中期七成把握'。战力提升速度与境界不符。",
+      "[warning] 神识数值增长异常：从470丈到650丈，三个月增长180丈，增幅约38%。参照之前章节，云梦泽遗迹探索一个月才增长80丈（390→470），此处增长过快。",
+      "[warning] 瞬移距离增长过快：从67丈到110丈，三个月增长43丈，增幅64%。参考第103章到110章七章时间才增长16丈（51→67），此处不符合之前的速度梯度。",
+      "[warning] 天书阁化神境后期高手面对苏言时表现异常：感知苏言气息后立即选择逃跑，随后被秒杀。整个过程没有展现化神境后期的应有实力，战斗描写过于单薄。",
+      "[warning] 本章剧情模式与第92、94、109章高度重复：七彩霞光异变→各方势力聚集→争夺传承/异宝→主角获胜。连续三章（109-111章）都是'探索章+收获章'类型。",
+      "[info] 林诗诗提供的情报'天书阁和隐脉准备提前唤醒万语之祖'超出其角色已知信息范围。作为与苏言交易的中间人，她不应掌握隐脉核心决策。",
+      "[info] 本章结尾揭示'两年后同时举行仪式'，与第110章林诗诗告知的'韩立突破四重'情报形成时间冲突——韩立五重（本章）与四重（上章）信息不一致。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 118306,
+      "completionTokens": 11549,
+      "totalTokens": 129855
+    }
+  },
+  {
+    "number": 112,
+    "title": "两年之期",
+    "status": "ready-for-review",
+    "wordCount": 4237,
+    "createdAt": "2026-03-19T02:32:58.271Z",
+    "updatedAt": "2026-03-19T02:32:58.271Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 211266,
+      "completionTokens": 24409,
+      "totalTokens": 235675
+    }
+  },
+  {
+    "number": 113,
+    "title": "隐脉动向",
+    "status": "ready-for-review",
+    "wordCount": 4030,
+    "createdAt": "2026-03-19T02:39:20.735Z",
+    "updatedAt": "2026-03-19T02:39:20.735Z",
+    "auditIssues": [
+      "[info] 本章属于事件章+修炼章组合，节奏紧凑但缺少高潮钩子。章尾苏言继续修炼、神识达到785丈，未设置明显的章节钩子",
+      "[info] 本章苏言秒杀隐脉小队展现实力（爽点落地），但与韩立的两年之约、与万语之祖唤醒仪式的核心冲突仍处于积累阶段，读者情绪缺口正在形成",
+      "[info] 第112章结尾神识突破800丈，第113章开头稳定在770丈，回落30丈。小说中神识突破后需要稳固是常见设定，但回落幅度偏大",
+      "[warning] 高频词'淡淡道'在本章出现约6次，超过每3000字1次的使用频率",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 145731,
+      "completionTokens": 15113,
+      "totalTokens": 160844
+    }
+  },
+  {
+    "number": 114,
+    "title": "西域遗迹",
+    "status": "ready-for-review",
+    "wordCount": 5370,
+    "createdAt": "2026-03-19T02:48:52.399Z",
+    "updatedAt": "2026-03-19T02:48:52.399Z",
+    "auditIssues": [
+      "[warning] 神识数值存在轻微不一致：状态卡显示785丈，本章开头写770丈，结尾总结写850丈。增量从开头770丈到结尾850丈是80丈，但章节摘要写'神识：七百七十丈 → 八百五十丈'与状态卡785丈冲突。",
+      "[warning] 战力提升过快：从'化神境巅峰，可击败聚道境初期'直接跨越到'半步聚道境'，中间缺乏过渡。且刚触及聚道境门槛就能秒杀化神境强者，削弱了越级战斗的紧张感。",
+      "[info] 高频词'淡淡'在本章出现约4次，在3000字章节中密度适中但需注意。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 183156,
+      "completionTokens": 22558,
+      "totalTokens": 205714
+    }
+  },
+  {
+    "number": 115,
+    "title": "稳固与危机",
+    "status": "ready-for-review",
+    "wordCount": 4978,
+    "createdAt": "2026-03-19T02:56:56.703Z",
+    "updatedAt": "2026-03-19T02:56:56.703Z",
+    "auditIssues": [
+      "[warning] 战力设定前后不一致。114章苏言评估'聚道境初期七成把握'，115章却接不下大长老'万道归一'；前文秒杀化神境后期，本章面对四名化神境后期需要用'凝'+空间凝固+空间刃芒才能击杀",
+      "[warning] 大长老境界突破缺乏铺垫。之前章节未提及大长老境界信息，本章突然出现'聚道境二层'，与天书阁之前只派化神境杀手围剿的设定存在冲突",
+      "[warning] 极限空间凝固作为新底牌亮出后，没有真正发挥作用就被沈惊鸿劝退，读者期待落空",
+      "[info] 连续两章（114-115）都是战斗高潮章，密度过高。114章刚'秒杀天书阁化神境''突破聚道境门槛'，115章立即'大战聚道境二层'，缺少缓冲"
+    ],
+    "tokenUsage": {
+      "promptTokens": 153085,
+      "completionTokens": 18404,
+      "totalTokens": 171489
+    }
+  },
+  {
+    "number": 116,
+    "title": "隐脉动向",
+    "status": "ready-for-review",
+    "wordCount": 6233,
+    "createdAt": "2026-03-19T03:04:51.741Z",
+    "updatedAt": "2026-03-19T03:04:51.741Z",
+    "auditIssues": [
+      "[warning] 时间之心这一关键道具在本章首次出现，但在此前的伏笔池中没有任何铺垫，略显突兀",
+      "[info] 苏言神识从850丈突破到890丈（+40丈），但状态卡显示神识为850丈→880丈，存在数值不一致",
+      "[info] 林诗诗支线(SUB_32)在本章完全未提及，已连续3章无出场",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 154042,
+      "completionTokens": 18048,
+      "totalTokens": 172090
+    }
+  },
+  {
+    "number": 117,
+    "title": "万佛城之行",
+    "status": "ready-for-review",
+    "wordCount": 4162,
+    "createdAt": "2026-03-19T03:12:16.276Z",
+    "updatedAt": "2026-03-19T03:12:16.276Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 154536,
+      "completionTokens": 16675,
+      "totalTokens": 171211
+    }
+  },
+  {
+    "number": 118,
+    "title": "万佛城伏击",
+    "status": "ready-for-review",
+    "wordCount": 3400,
+    "createdAt": "2026-03-19T03:17:38.690Z",
+    "updatedAt": "2026-03-19T03:17:38.690Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 122153,
+      "completionTokens": 11064,
+      "totalTokens": 133217
+    }
+  },
+  {
+    "number": 119,
+    "title": "万佛城探查",
+    "status": "ready-for-review",
+    "wordCount": 5344,
+    "createdAt": "2026-03-19T03:30:42.935Z",
+    "updatedAt": "2026-03-19T03:30:42.935Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 124848,
+      "completionTokens": 12541,
+      "totalTokens": 137389
+    }
+  },
+  {
+    "number": 120,
+    "title": "万佛城突围",
+    "status": "ready-for-review",
+    "wordCount": 3935,
+    "createdAt": "2026-03-19T03:37:59.459Z",
+    "updatedAt": "2026-03-19T03:37:59.459Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 160141,
+      "completionTokens": 17077,
+      "totalTokens": 177218
+    }
+  },
+  {
+    "number": 121,
+    "title": "稳固与暗流",
+    "status": "ready-for-review",
+    "wordCount": 3994,
+    "createdAt": "2026-03-19T03:43:56.022Z",
+    "updatedAt": "2026-03-19T03:43:56.022Z",
+    "auditIssues": [
+      "[warning] 转折词重复使用：\"不过\"×3。同一转折模式≥3次暴露AI生成痕迹",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 159353,
+      "completionTokens": 15903,
+      "totalTokens": 175256
+    }
+  },
+  {
+    "number": 122,
+    "title": "西域来讯",
+    "status": "ready-for-review",
+    "wordCount": 3908,
+    "createdAt": "2026-03-19T03:49:27.793Z",
+    "updatedAt": "2026-03-19T03:49:27.793Z",
+    "auditIssues": [
+      "[warning] 套话词（似乎/可能/或许等）密度为3.3次/千字（阈值>3），语气过于模糊犹豫",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 126646,
+      "completionTokens": 12072,
+      "totalTokens": 138718
+    }
+  },
+  {
+    "number": 123,
+    "title": "时间道诀",
+    "status": "ready-for-review",
+    "wordCount": 4032,
+    "createdAt": "2026-03-19T03:57:06.071Z",
+    "updatedAt": "2026-03-19T03:57:06.071Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 165926,
+      "completionTokens": 19033,
+      "totalTokens": 184959
+    }
+  },
+  {
+    "number": 124,
+    "title": "西域惊变",
+    "status": "ready-for-review",
+    "wordCount": 4282,
+    "createdAt": "2026-03-19T04:03:52.578Z",
+    "updatedAt": "2026-03-19T04:03:52.578Z",
+    "auditIssues": [
+      "[warning] 高疲劳词使用频繁：'心中一动'出现超过8次，'本章完'出现3次，'蘇言'与'苏言'混用造成阅读疲劳",
+      "[warning] 修炼过程碎片化：时间凝固范围从八尺→九尺→一丈，修炼进度被情报打断多次切割，缺乏集中一次完整修炼的酣畅感",
+      "[info] 本章末尾韩立突然出现在遗迹中，但苏言是独自前往，韩立为何在此没有交代",
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 164749,
+      "completionTokens": 18617,
+      "totalTokens": 183366
+    }
+  },
+  {
+    "number": 125,
+    "title": "遗迹相逢",
+    "status": "ready-for-review",
+    "wordCount": 4100,
+    "createdAt": "2026-03-19T04:10:21.645Z",
+    "updatedAt": "2026-03-19T04:10:21.645Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 161572,
+      "completionTokens": 17720,
+      "totalTokens": 179292
+    }
+  },
+  {
+    "number": 126,
+    "title": "闭关岁月",
+    "status": "ready-for-review",
+    "wordCount": 3336,
+    "createdAt": "2026-03-19T04:14:10.464Z",
+    "updatedAt": "2026-03-19T04:14:10.464Z",
+    "auditIssues": [
+      "[warning] 125章结尾神识为945丈，但状态卡记录为935丈，存在数据不一致。126章开头为955丈，与125章结尾的945丈衔接正确。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 128047,
+      "completionTokens": 11654,
+      "totalTokens": 139701
+    }
+  },
+  {
+    "number": 127,
+    "title": "云梦泽秘境",
+    "status": "ready-for-review",
+    "wordCount": 3775,
+    "createdAt": "2026-03-19T04:19:29.397Z",
+    "updatedAt": "2026-03-19T04:19:29.397Z",
+    "auditIssues": [
+      "[warning] 神识数值描述存在逻辑问题：章节开头说'神识不自觉地运转起来，范围缓缓扩大'，但神识在之前已经达到955丈，这里描写仿佛是第一次扩展，实际应该是继续增长。",
+      "[warning] 存在重复表述：'比之初见时复杂了十倍不止'与第126章'石碑表面的金色纹路已经清晰可见，比之初见时复杂了数倍不止'重复。",
+      "[warning] 沈惊鸿在本章中功能性过强，几乎只负责'带路'和'杀人'，缺乏独立的人格展现。",
+      "[info] 章节末尾突然出现'几道黑影'和'韩立那边...一年后会给苏言一个惊喜'，这些信息苏言视角不应获知，属于视角泄露。",
+      "[warning] 隐脉追兵进入秘境被沈惊鸿击杀，但未说明他们如何得知苏言行踪，信息链断裂。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 162334,
+      "completionTokens": 16959,
+      "totalTokens": 179293
+    }
+  },
+  {
+    "number": 128,
+    "title": "密谈与谋局",
+    "status": "ready-for-review",
+    "wordCount": 4356,
+    "createdAt": "2026-03-19T04:25:17.903Z",
+    "updatedAt": "2026-03-19T04:25:17.903Z",
+    "auditIssues": [
+      "[info] 状态卡显示神识955丈，本章描述从985丈开始，差值为30丈；状态卡显示时间凝固五丈，章节中描述从五丈一、五丈二逐渐扩大，数值略有波动",
+      "[info] 检测到AI标记词'仿佛'出现2次，'不禁'出现1次，'竟然'出现1次，在7000字篇幅中属于正常范围"
+    ],
+    "tokenUsage": {
+      "promptTokens": 165719,
+      "completionTokens": 17847,
+      "totalTokens": 183566
+    }
+  },
+  {
+    "number": 129,
+    "title": "问道瓶颈",
+    "status": "ready-for-review",
+    "wordCount": 3973,
+    "createdAt": "2026-03-19T04:29:44.663Z",
+    "updatedAt": "2026-03-19T04:29:44.663Z",
+    "auditIssues": [
+      "[warning] 悟道台突破是本章核心爽点期待，但苏言在关键时刻失败，悟道台也没有带来实质性收益。主角光环在此处突然失效，属于典型的\"期望落空\"写法，需要后续章节快速给出补偿。",
+      "[warning] 本章类型为\"布局章+修炼章+转折章\"，属于典型的\"失败-反思\"节奏。与第127-128章的\"收获章+突破章+布局章\"形成对比，但连续多章（127-129）都是修炼/准备类章节，缺乏战斗高潮。",
+      "[warning] 林诗诗在本章被提及\"也会去云梦泽遗迹\"，但实际未出现。白云子专门提醒苏言注意林诗诗，但林诗诗线没有任何实质性推进，变成了纯粹的\"设定/台词工具\"。",
+      "[info] 本章结尾提到\"距离万佛城之战，还有最后三个月\"，与之前章节确立的\"一年后\"时间框架略有出入。从第128章议事大殿密谈到第129章悟道台失败，时间跨度约一个月+遗迹探索+返回闭关，时间线大体合理，但\"三个月\"的紧迫感需要后续情节支撑。",
+      "[info] 本章神识从1010丈增长到1020丈（一个月内+10丈），相比之前章节神识增长速度（127章+25丈、128章+30丈）略有放缓，属于合理波动。悟道台失败后神识\"识海混乱\"但未下降，数值处理得当。",
+      "[info] 本章核心伏笔\"悟道台凝聚道种\"以失败告终，但苏言获得了重要领悟：\"神识太强导致融合困难\"。这个领悟为后续突破指明了方向，属于\"失败推进\"式伏笔，逻辑自洽。",
+      "[info] 章尾钩子：悟道台失败+领悟自身问题+\"三个月后万佛城之战\"的紧迫感。情绪缺口：悟道台突破失败是明确的情绪压制，但\"神识与灵气融合\"的新方向给了读者期待。整体管理得当。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 132610,
+      "completionTokens": 12268,
+      "totalTokens": 144878
+    }
+  },
+  {
+    "number": 130,
+    "title": "静心与破局",
+    "status": "ready-for-review",
+    "wordCount": 3585,
+    "createdAt": "2026-03-19T04:36:14.198Z",
+    "updatedAt": "2026-03-19T04:36:14.198Z",
+    "auditIssues": [
+      "[warning] 本章突然出现「妹妹被韩立抓」的情节，但此前章节从未提及苏言有妹妹，也无相关伏笔。这与伏笔H002（父母下落）仅涉及父亲苏天河被囚形成矛盾。",
+      "[info] SUB_37（万佛城行动计划）和SUB_38（西域遗迹时间法则传承）在本章均无明显推进，仅有抽象的「决定提前出发」描述。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 168053,
+      "completionTokens": 18255,
+      "totalTokens": 186308
+    }
+  },
+  {
+    "number": 131,
+    "title": "明悟与备战",
+    "status": "ready-for-review",
+    "wordCount": 3940,
+    "createdAt": "2026-03-19T04:42:32.348Z",
+    "updatedAt": "2026-03-19T04:42:32.348Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 170414,
+      "completionTokens": 18067,
+      "totalTokens": 188481
+    }
+  },
+  {
+    "number": 132,
+    "title": "林诗诗的目的",
+    "status": "ready-for-review",
+    "wordCount": 5814,
+    "createdAt": "2026-03-19T04:48:15.305Z",
+    "updatedAt": "2026-03-19T04:48:15.305Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 173937,
+      "completionTokens": 13948,
+      "totalTokens": 187885
+    }
+  },
+  {
+    "number": 133,
+    "title": "黑风峡",
+    "status": "ready-for-review",
+    "wordCount": 3243,
+    "createdAt": "2026-03-19T04:52:57.335Z",
+    "updatedAt": "2026-03-19T04:52:57.335Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 139039,
+      "completionTokens": 11852,
+      "totalTokens": 150891
+    }
+  },
+  {
+    "number": 134,
+    "title": "归宗定计",
+    "status": "ready-for-review",
+    "wordCount": 3825,
+    "createdAt": "2026-03-19T04:57:15.815Z",
+    "updatedAt": "2026-03-19T04:57:15.815Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 137425,
+      "completionTokens": 12288,
+      "totalTokens": 149713
+    }
+  },
+  {
+    "number": 135,
+    "title": "闭关悟道",
+    "status": "ready-for-review",
+    "wordCount": 4191,
+    "createdAt": "2026-03-19T05:13:19.815Z",
+    "updatedAt": "2026-03-19T05:13:19.815Z",
+    "auditIssues": [
+      "[info] 修炼三个月神识仅增长15丈（1010→1025丈），相比之前修炼速度偏慢",
+      "[info] 本章为过渡章，缺乏明显的爽点落地",
+      "[info] 悟道崖新支线在本章激活，为突破聚道境提供新的可能性"
+    ],
+    "tokenUsage": {
+      "promptTokens": 138067,
+      "completionTokens": 12448,
+      "totalTokens": 150515
+    }
+  },
+  {
+    "number": 136,
+    "title": "悟道崖",
+    "status": "ready-for-review",
+    "wordCount": 3609,
+    "createdAt": "2026-03-19T05:19:55.983Z",
+    "updatedAt": "2026-03-19T05:19:55.983Z",
+    "auditIssues": [
+      "[warning] 悟道崖设定存在轻微矛盾：白云子说'只有通玄境以下才能进入'，苏言是通玄境三重（半步聚道境），境界刚好在边界。虽然战力已达聚道境，但境界仍是通玄境，符合设定。建议在描述中更明确说明'境界是通玄境但战力已达聚道境'的情况。",
+      "[warning] 周林在本章中主要作为背景板存在，仅负责递送干粮和询问，缺乏主动行动和个性化表达。",
+      "[info] 本章为连续突破章（134章出关、135章闭关、136章突破），连续三章都是修炼/突破类型。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 176373,
+      "completionTokens": 17813,
+      "totalTokens": 194186
+    }
+  },
+  {
+    "number": 137,
+    "title": "悟道崖顶",
+    "status": "ready-for-review",
+    "wordCount": 4116,
+    "createdAt": "2026-03-19T05:26:28.255Z",
+    "updatedAt": "2026-03-19T05:26:28.255Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 176003,
+      "completionTokens": 17790,
+      "totalTokens": 193793
+    }
+  },
+  {
+    "number": 138,
+    "title": "稳固与绸缪",
+    "status": "ready-for-review",
+    "wordCount": 4784,
+    "createdAt": "2026-03-19T05:55:19.906Z",
+    "updatedAt": "2026-03-19T05:55:19.906Z",
+    "auditIssues": [
+      "[info] 检测到3句连续以相同开头的句子，呈现列表式AI生成结构"
+    ],
+    "tokenUsage": {
+      "promptTokens": 180903,
+      "completionTokens": 19407,
+      "totalTokens": 200310
+    }
+  },
+  {
+    "number": 139,
+    "title": "万佛城之战",
+    "status": "ready-for-review",
+    "wordCount": 3845,
+    "createdAt": "2026-03-19T06:14:21.649Z",
+    "updatedAt": "2026-03-19T06:14:21.649Z",
+    "auditIssues": [],
+    "tokenUsage": {
+      "promptTokens": 217597,
+      "completionTokens": 20360,
+      "totalTokens": 237957
+    }
+  },
+  {
+    "number": 140,
+    "title": "隐脉复苏",
+    "status": "ready-for-review",
+    "wordCount": 3739,
+    "createdAt": "2026-03-19T07:02:54.684Z",
+    "updatedAt": "2026-03-19T07:02:54.684Z",
+    "auditIssues": [
+      "[warning] 第140章内容显示隐脉唤醒仪式已进入高潮阶段（虚影凝聚、五息后完成），万语之祖即将苏醒。但根据卷纲规划，第4卷（101-140章）核心是'荒原部族入侵战争+领悟语言法则雏形'，第5卷（141-170章）才是'隐脉复活万语之祖计划败露'。当前章节已提前消耗了第5卷的核心冲突节点。",
+      "[info] 本章结尾钩子效果出色（五息后万语之祖苏醒+苏言准备阻止），但需要确保下一章有爽点落地。当前已具备的条件：1)父母成功营救（爽点已兑现）；2)苏言秒杀敌人展示战力（爽点已兑现）；3)阻止唤醒仪式（悬念待落地）。整体读者情绪积累合理。"
+    ],
+    "tokenUsage": {
+      "promptTokens": 177554,
+      "completionTokens": 16169,
+      "totalTokens": 193723
+    }
   }
 ]
